@@ -1,4 +1,10 @@
+import org.junit.Test;
+
 public class HelloWorld {
 
-  System.out.println("Hello World");
+  @Test
+          public void myFirstTest (){
+
+    System.out.println("Hello World");
+  }
 }
