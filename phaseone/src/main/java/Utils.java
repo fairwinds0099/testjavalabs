@@ -1,10 +1,18 @@
+
 public class Utils {
 
-    public Utils () {
 
-        forLoopTenTimes();
+
+    public void forLoopTenTimes() {
     }
 
-    private void forLoopTenTimes() {
+
+    public void openSession(){
+        System.out.println("I'm new here");
+    }
+
+
+    public static void connectToDatabase(){
+        System.out.println("Sink or Swim");
     }
 }
