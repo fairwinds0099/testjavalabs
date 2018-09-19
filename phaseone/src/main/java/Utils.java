@@ -1,18 +1,18 @@
 
 public class Utils {
 
-
-
-    public void forLoopTenTimes() {
+  private void forLoopTenTimes() {
+    for (int i = 0; i < 10; i++) {
+      System.out.println("Hello World");
     }
+  }
 
+  protected void openSession() {
+    System.out.println("This method opens a session in Linux Server");
+  }
 
-    public void openSession(){
-        System.out.println("I'm new here");
-    }
+  public static void connectToDatabase() {
+    System.out.println("This method connectes to a remote database");
+  }
 
-
-    public static void connectToDatabase(){
-        System.out.println("Sink or Swim");
-    }
 }
