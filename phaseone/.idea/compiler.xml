@@ -9,8 +9,5 @@
         <module name="phaseone" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="phaseone" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
