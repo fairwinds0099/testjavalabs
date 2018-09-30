@@ -1,13 +1,18 @@
-import com.HelloWorldImpl;
+import com.HelloWorldForImpl;
+import com.HelloWorldWhileImpl;
 import org.junit.Test;
 
-public class HelloWorldTest {
-    int i;
-    HelloWorldImpl myHello = new HelloWorldImpl();
 
+public class HelloWorldTest {
+
+    HelloWorldWhileImpl whileHello = new HelloWorldWhileImpl();
+    HelloWorldForImpl forHello = new HelloWorldForImpl();
     @Test
     public void myFirstTest() {
-        i = myHello.forLoopFiveTimes();
-        System.out.println(i);
+        whileHello.whileLoopFiveTimes();
+    }
+    @Test
+    public void mySecondTest(){
+        forHello.forLoopFiveTimes();
     }
 }
