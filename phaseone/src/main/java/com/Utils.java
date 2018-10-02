@@ -3,9 +3,9 @@ package com;
 import java.sql.*;
 import java.util.Properties;
 
-public class Utils {
+public class   Utils {
 
-    public Utils() throws SQLException {
+    public Utils() {
     }
 
     public void forLoopTenTimes() {
@@ -22,7 +22,7 @@ public class Utils {
         System.out.println("This method connectes to a remote database");
     }
 
-    // TODO please add a method to connecte to the below database
+    // TODO please add a method to connect to the below database
     String url = "pos-experiment.cn1e1hoy5jio.us-east-1.rds.amazonaws.com";
     //    int port = 1521;
     //    String dbName = "POS";
