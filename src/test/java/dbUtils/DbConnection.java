@@ -8,4 +8,5 @@ public class DbConnection {
     //    String dbName = "POS";
     String userName = "pos_user";
     String password = "Sb123456";
+    System.out.println("herhangibirsey")
 }
