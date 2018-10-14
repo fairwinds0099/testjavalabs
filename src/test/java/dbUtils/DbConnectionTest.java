@@ -6,11 +6,11 @@ import org.junit.Test;
 import java.sql.PreparedStatement;
 
 
-public class DbConnectionTest extends DbConnection {
+public class DbConnectionTest  {
     @Test
     public void aliDbTest() throws java.sql.SQLException, ClassNotFoundException{
-        DbConnection dbConnection = new DbConnection();
-        dbConnection.DbConnect();
+        DbUtilities dbUtilities = new DbUtilities();
+        dbUtilities.addRepresentatives(18, "CA", "Orange County", "John", "Walters" );
         //public void SqlStatement(){
             //Calender calender = calender.getInstance();
             //java.sql.Date startDate = new java.sql.Date(calendar.getTime().getTime());
