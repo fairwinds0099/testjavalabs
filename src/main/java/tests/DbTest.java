@@ -1,16 +1,21 @@
 package tests;
 
-import helper.QueryHandlingHelper;
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import domain.helpers.QueryHandlingHelpers;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import static org.testng.AssertJUnit.assertEquals;
+
 
 // TODO updated
 public class DbTest {
-    private QueryHandlingHelper helper = new QueryHandlingHelper();
+    private QueryHandlingHelpers helper = new QueryHandlingHelpers();
 
-    @Test
-    public void getRep() {
-        Assert.assertEquals("abcd", helper.findRepById("1").getFirstName());
+        @Test
+        public void getId() {
+            assertEquals("TX", helper.findAddress("6").getState());
+
+        }
     }
-}
+

@@ -9,8 +9,5 @@
         <module name="maven-restassured-jdbc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="maven-restassured-jdbc" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

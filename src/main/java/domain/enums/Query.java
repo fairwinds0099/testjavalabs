@@ -2,7 +2,8 @@ package domain.enums;
 
 //TODO to be updated
 public enum Query {
-    REPID("SELECT FIRST_NAME FROM REPRESENTATIVES WHERE REP_ID = ?");
+    REPBYID("SELECT CITY FROM ADDRESS WHERE ID = ?"),
+    SEARCHBYSTATE("SELECT STATE FROM ADDRESS WHERE ID = ?");
 
     private String query;
 

@@ -10,9 +10,10 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.junit.Test;
+
 import org.testng.Assert;
 import domain.Pojos.FluTrackPojo;
+import org.testng.annotations.Test;
 
 import java.util.Arrays;
 import java.util.List;

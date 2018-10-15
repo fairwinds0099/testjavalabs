@@ -1,7 +1,9 @@
 package utils.RestUtils;
 
+
 import io.restassured.RestAssured;
-import org.junit.Test;
+import org.testng.annotations.Test;
+
 
 // DO NOT COMMIT
 class GxExpTemp {
