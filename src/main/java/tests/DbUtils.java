@@ -19,33 +19,27 @@ public class DbUtils {
         String queryCreate = "INSERT INTO ADDRESS (ID, STREETNAME, CITY, ZIPCODE, STATE)" +
                 "VALUES(7, '311 True St', 'Richmond', '54544', 'VA')";
 
-        Statement stCreate = conn.prepareStatement(queryCreate);
+        Statement statementCreate = conn.prepareStatement(queryCreate);
 
-        ResultSet rsltCr = stCreate.executeQuery(queryCreate);
-
-        System.out.println (rsltCr);
+        statementCreate.executeQuery(queryCreate);
 
         String queryRead = "SELECT * FROM ADDRESS WHERE ZIPCODE=54544";
 
-        Statement stRead = conn.prepareStatement(queryRead);
+        Statement statementRead = conn.prepareStatement(queryRead);
 
-        ResultSet rsltRe = stRead.executeQuery(queryRead);
-
-        System.out.println (rsltRe);
-
+        statementRead.executeQuery(queryRead);
+//
         String queryUpdate = "UPDATE ADDRESS SET CITY = 'Miami', ZIPCODE='22222' WHERE ID='7'";
 
-        Statement stUpdate = conn.prepareStatement(queryUpdate);
+        Statement statementUpdate = conn.prepareStatement(queryUpdate);
 
-        ResultSet rsltUp = stUpdate.executeQuery(queryUpdate);
-
-        System.out.println(rsltUp);
-
+        statementUpdate.executeQuery(queryUpdate);
+//
         String queryDelete = "DELETE FROM ADDRESS WHERE ID=7";
 
-        Statement stDelete = conn.prepareStatement(queryDelete);
+        Statement statementDelete = conn.prepareStatement(queryDelete);
 
-        ResultSet rsltDel = stDelete.executeQuery(queryDelete);
+        statementDelete.executeQuery(queryDelete);
     }
 
 }
