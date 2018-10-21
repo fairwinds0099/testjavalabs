@@ -16,12 +16,36 @@ public class DbUtils {
 
         System.out.println ("Connection Successful");
 
-        String query = "INSERT INTO ADDRESS (ID, STREETNAME, CITY, ZIPCODE, STATE)" +
-                "VALUES(7, '333 State St', 'Mc Lean', '44044', 'NJ')";
+        String queryCreate = "INSERT INTO ADDRESS (ID, STREETNAME, CITY, ZIPCODE, STATE)" +
+                "VALUES(7, '311 True St', 'Richmond', '54544', 'VA')";
 
-        Statement statement = conn.prepareStatement(query);
+        Statement stCreate = conn.prepareStatement(queryCreate);
 
-        ResultSet resultSet = statement.executeQuery(query);
+        ResultSet rsltCr = stCreate.executeQuery(queryCreate);
+
+        System.out.println (rsltCr);
+
+        String queryRead = "SELECT * FROM ADDRESS WHERE ZIPCODE=54544";
+
+        Statement stRead = conn.prepareStatement(queryRead);
+
+        ResultSet rsltRe = stRead.executeQuery(queryRead);
+
+        System.out.println (rsltRe);
+
+        String queryUpdate = "UPDATE ADDRESS SET CITY = 'Miami', ZIPCODE='22222' WHERE ID='7'";
+
+        Statement stUpdate = conn.prepareStatement(queryUpdate);
+
+        ResultSet rsltUp = stUpdate.executeQuery(queryUpdate);
+
+        System.out.println(rsltUp);
+
+        String queryDelete = "DELETE FROM ADDRESS WHERE ID=7";
+
+        Statement stDelete = conn.prepareStatement(queryDelete);
+
+        ResultSet rsltDel = stDelete.executeQuery(queryDelete);
     }
 
 }
