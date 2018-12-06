@@ -1,6 +1,8 @@
 package tests.uiTests;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import domain.Pojos.AllStatesRepPojo;
 import domain.Pojos.PojoRepList;
 import domain.Pojos.Representatives;
@@ -101,7 +103,7 @@ public class RepresentativesTests extends UITestBase {
     }
 
     @Test
-    public void alabamaRepsInfoShouldSerialized() throws JsonProcessingException {
+    public void alabamaRepsInfoShouldSerializedJackson() throws JsonProcessingException {
         homePage.clickRepresentativesLink();
         directoryPage.clickListByStateAndDistrictLink();
         Representatives firstAlabamaRep = new Representatives();
@@ -142,6 +144,38 @@ public class RepresentativesTests extends UITestBase {
                 "    \"committee_assignment\" : null\n" +
                 "  } ]\n" +
                 "}", directoryPage.serializeRepInfoWithJackson(allStatesRepPojo));
+    }
+
+    @Test
+    public void alabamaRepsInfoShouldSerializedGson() throws IOException {
+        homePage.clickRepresentativesLink();
+        directoryPage.clickListByStateAndDistrictLink();
+        Representatives firstAlabamaRep = new Representatives();
+        Representatives secondAlabamaRep = new Representatives();
+        //firstAlabamaRep.setState("Alabama");
+        firstAlabamaRep.setDistrict("1st");
+        firstAlabamaRep.setName("Jacob");
+        firstAlabamaRep.setOfficeRoom("119 CHOB");
+        firstAlabamaRep.setParty("R");
+        firstAlabamaRep.setPhone("111222333");
+        //secondAlabamaRep.setState("Alabama");
+        secondAlabamaRep.setDistrict("12nd");
+        secondAlabamaRep.setName("Gox");
+        secondAlabamaRep.setOfficeRoom("212 CHOB");
+        secondAlabamaRep.setParty("D");
+        secondAlabamaRep.setPhone("222111444");
+        List<Representatives> alabamaRepsList = new ArrayList<Representatives>();
+        alabamaRepsList.add(firstAlabamaRep);
+        alabamaRepsList.add(secondAlabamaRep);
+        AllStatesRepPojo allStatesRepPojo = new AllStatesRepPojo(alabamaRepsList);
+        allStatesRepPojo.setState("Alabama");
+        //System.out.println(directoryPage.serializeRepInfowithGson(allStatesRepPojo));
+        String jsonString = directoryPage.serializeRepInfowithGson(allStatesRepPojo);
+        JsonParser parser = new JsonParser();
+        JsonElement officeRoomNode = parser.parse(jsonString).getAsJsonObject().get("repsList");
+        System.out.println(officeRoomNode.getAsString());
+
+
     }
 }
 

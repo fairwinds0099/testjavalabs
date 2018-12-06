@@ -3,7 +3,10 @@ package domain.pages;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import domain.Pojos.PojoRepList;
+import domain.Pojos.Representatives;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +14,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import org.openqa.selenium.support.PageFactory;
+import tests.uiTests.RepresentativesTests;
+
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -107,6 +115,18 @@ public class DirectoryPage extends HomePage {
         ObjectWriter mapper = new ObjectMapper().writer().withDefaultPrettyPrinter();
         //mapper.enable(SerializationFeature.INDENT_OUTPUT);
         return mapper.writeValueAsString(obj);
+    }
+
+    public String serializeRepInfowithGson(Object o) throws IOException {
+        GsonBuilder gsonBuilder = new GsonBuilder();
+        gsonBuilder.setPrettyPrinting();
+        Gson gson = gsonBuilder.create();
+        return gson.toJson(o);
+    }
+    public Object deserializeJsonwithGson (){
+        DirectoryPage directoryPage = new PageFactory().initElements(driver, DirectoryPage.class);
+        RepresentativesTests representatives = new RepresentativesTests();
+        return directoryPage.serializeRepInfowithGson(representatives.)
     }
 
 
