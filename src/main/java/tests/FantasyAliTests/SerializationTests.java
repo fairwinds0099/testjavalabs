@@ -2,13 +2,14 @@ package tests.FantasyAliTests;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import domain.Pojos.PojoAllState;
 import domain.Pojos.PojoReps;
-import io.restassured.mapper.ObjectMapper;
 import org.junit.Test;
+import utils.FileUtils;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,8 +42,12 @@ public class SerializationTests {
         System.out.println(serializeWithJackson(alabamaState));
     }
 
+
+    //Below methods to be moved to JsonUtils or RestUtils
+
     private String serializeWithGson(Object obj) {
-        return new Gson().toJson(obj);
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        return gson.toJson(obj);
     }
 
     private String serializeWithJackson(Object obj) {
@@ -54,5 +59,13 @@ public class SerializationTests {
             e.printStackTrace();
         }
         return null;
+    }
+
+    //filepatch ise where the json string resides
+    private <T> T deserializeWithGson(String filePath, Type pojo) {
+        FileUtils fileUtils = new FileUtils();
+        String retrievedJson = fileUtils.getFileContent(filePath);
+        Gson gson = new Gson();
+        return gson.fromJson(retrievedJson, pojo);
     }
 }
