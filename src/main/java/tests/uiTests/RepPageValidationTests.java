@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class RepresentativesTests {
+public class RepPageValidationTests {
 
     @Test
     public void repPageLogoShouldAppearWithChrome(){
