@@ -2,49 +2,36 @@ package domain.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class HomePage {
 
     WebDriver driver;
 
-    Boolean result;
-    String regex = "^[0-9]{5}(?:-[0-9]{4})?$";
+    @FindBy (xpath = "//input[@id='header-find-rep-zip-code']")
+    private static WebElement homePageZipCodeInput;
 
-    @FindBy (xpath = "//a[@title='Home']")
-    private WebElement homePageLogo;
+    @FindBy (css = "#block-mainnavigation > ul > li:nth-child(1) > a")
+    //*[@id="block-mainnavigation"]/ul/li[1]/a
+    private static WebElement representativesLink;
 
-    @FindBy(xpath = "(//a[@href = '/representatives'])[1]")
-    private WebElement representativesLink;
+    @FindBy (css = "#block-mainnavigation > ul > li:nth-child(3) > a")
+    private static WebElement committeesLink;
 
-    @FindBy(xpath = "//button[@value='Look up'][1]")
-    private WebElement lookUpZipCodeButton;
-
-    @FindBy(xpath = "//input[@id='header-find-rep-zip-code']")
-    private WebElement inputZipCode;
-
-    @FindBy(xpath = "//form[contains(text(), 'Enter a zip code:')]")
-    private WebElement invalidZipCodeText;
-
-    public HomePage (WebDriver driver) {
+    public HomePage(WebDriver driver) {
         this.driver = driver;
     }
 
-    public void clickRepresentativesLink() {
+    public static boolean isHomePageZipCodeInputPresent(){
+        return homePageZipCodeInput.isDisplayed();
+    }
+
+    public static void clickRepresentativesLink(){
         representativesLink.click();
     }
 
-    public void enterZipCodeAndSubmit(String zipCode) {
-        inputZipCode.clear();
-        inputZipCode.sendKeys(zipCode);
-        lookUpZipCodeButton.click();
-    }
+    public static void clickCommitteesLink(){
+        committeesLink.click();
 
-    public boolean isHomePageLogoDisplayed(){
-       return homePageLogo.isDisplayed();
     }
 }
