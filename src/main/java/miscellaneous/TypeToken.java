@@ -1,4 +1,4 @@
-package utils.RestUtils;
+package miscellaneous;
 
 public class TypeToken {
     public Object getType() {
