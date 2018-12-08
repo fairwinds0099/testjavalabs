@@ -7,6 +7,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import domain.Pojos.PojoRepList;
 import domain.Pojos.Representatives;
+import domain.Pojos.PojoRepList;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,7 +17,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.openqa.selenium.support.PageFactory;
 import tests.uiTests.RepresentativesTests;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -128,7 +128,6 @@ public class DirectoryPage extends HomePage {
         RepresentativesTests representatives = new RepresentativesTests();
         return directoryPage.serializeRepInfowithGson(representatives.)
     }
-
 
     public String getPartyByRepresentative(String representativeName){
         return getParty(partyXpathByName, representativeName);

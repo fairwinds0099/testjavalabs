@@ -2,12 +2,14 @@ package tests.FantasyAliTests;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import domain.Pojos.PojoAllState;
 import domain.Pojos.PojoReps;
 import org.junit.Test;
+import utils.FileUtils;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -40,10 +42,17 @@ public class SerializationTests {
         System.out.println(serializeWithJackson(alabamaState));
     }
 
+
+    //Below methods to be moved to JsonUtils or RestUtils
+
+
+    //ignore GsonBuilder if pretty print not required
     private String serializeWithGson(Object obj) {
-        return new Gson().toJson(obj);
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        return gson.toJson(obj);
     }
 
+    //use pretty print sas default
     private String serializeWithJackson(Object obj) {
         ObjectMapper mapper = new ObjectMapper();
         //mapper.enable(SerializationFeature.INDENT_OUTPUT);
@@ -53,5 +62,13 @@ public class SerializationTests {
             e.printStackTrace();
         }
         return null;
+    }
+
+    //filepath is where the json string resides
+    private <T> T deserializeWithGson(String filePath, Type pojo) {
+        FileUtils fileUtils = new FileUtils();
+        String retrievedJson = fileUtils.getFileContent(filePath);
+        Gson gson = new Gson();
+        return gson.fromJson(retrievedJson, pojo);
     }
 }

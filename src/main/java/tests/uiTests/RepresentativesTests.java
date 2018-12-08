@@ -174,8 +174,6 @@ public class RepresentativesTests extends UITestBase {
         JsonParser parser = new JsonParser();
         JsonElement officeRoomNode = parser.parse(jsonString).getAsJsonObject().get("repsList");
         System.out.println(officeRoomNode.getAsString());
-
-
     }
 }
 
