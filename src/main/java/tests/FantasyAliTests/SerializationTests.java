@@ -45,11 +45,14 @@ public class SerializationTests {
 
     //Below methods to be moved to JsonUtils or RestUtils
 
+
+    //ignore GsonBuilder if pretty print not required
     private String serializeWithGson(Object obj) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         return gson.toJson(obj);
     }
 
+    //use pretty print sas default
     private String serializeWithJackson(Object obj) {
         ObjectMapper mapper = new ObjectMapper();
         //mapper.enable(SerializationFeature.INDENT_OUTPUT);
@@ -61,7 +64,7 @@ public class SerializationTests {
         return null;
     }
 
-    //filepatch ise where the json string resides
+    //filepath is where the json string resides
     private <T> T deserializeWithGson(String filePath, Type pojo) {
         FileUtils fileUtils = new FileUtils();
         String retrievedJson = fileUtils.getFileContent(filePath);
