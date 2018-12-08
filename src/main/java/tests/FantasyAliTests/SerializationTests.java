@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
 import domain.Pojos.PojoAllState;
 import domain.Pojos.PojoReps;
+import io.restassured.mapper.ObjectMapper;
 import org.junit.Test;
 
 import java.util.ArrayList;
