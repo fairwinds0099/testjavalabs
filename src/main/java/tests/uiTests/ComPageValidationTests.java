@@ -1,4 +1,4 @@
-package tests;
+package tests.uiTests;
 
 import domain.pages.CommitteesPage;
 import domain.pages.HomePage;

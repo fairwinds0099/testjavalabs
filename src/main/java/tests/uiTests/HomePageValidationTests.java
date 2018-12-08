@@ -1,4 +1,4 @@
-package tests;
+package tests.uiTests;
 
 import domain.pages.HomePage;
 import org.junit.Test;
@@ -16,7 +16,6 @@ public class HomePageValidationTests {
 
         driver.get("https://www.house.gov");
         System.out.println(homePage.isHomePageZipCodeInputPresent());
-
         driver.close();
     }
 }
