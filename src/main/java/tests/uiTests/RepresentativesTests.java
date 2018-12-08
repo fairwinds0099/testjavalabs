@@ -22,5 +22,6 @@ public class RepresentativesTests {
         homePage.clickRepresentativesLink();
         System.out.println(representativesPage.isRepresentativesPageStateNameDisplayed());
         driver.close();
+        System.out.println("change");
     }
 }
