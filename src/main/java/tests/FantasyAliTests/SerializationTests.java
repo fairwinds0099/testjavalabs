@@ -9,6 +9,7 @@ import domain.Pojos.PojoReps;
 import org.junit.Test;
 import utils.FileUtils;
 
+import java.io.*;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +21,10 @@ public class SerializationTests {
     PojoAllState alabamaState = new PojoAllState();
     List<PojoReps> listAlabamaReps = new ArrayList<PojoReps>();
 
+
+
     @Test
-    public void serialize() {
+    public void serialize() throws IOException {
 
         //fill repAlabama1 info
         repAlabama1.setName("Tony");
@@ -37,9 +40,9 @@ public class SerializationTests {
         alabamaState.setState("Alabama");
         alabamaState.setReps(listAlabamaReps);
 
-        System.out.println(serializeWithGson(alabamaState));
+        System.out.println((String)deserializeWithGson("ali", PojoAllState.class));
 
-        System.out.println(serializeWithJackson(alabamaState));
+        //System.out.println(writeJSONwithGSON(alabamaState));
     }
 
 
@@ -50,6 +53,15 @@ public class SerializationTests {
     private String serializeWithGson(Object obj) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         return gson.toJson(obj);
+    }
+
+    private void writeJSONwithGSON (PojoAllState o) throws IOException {
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        FileWriter writer = new FileWriter("pojoAllState.json");
+        writer.write(gson.toJson(o));
+        writer.close();
+        //File f = new File("pojoAllState.json");
+        //return f.getAbsolutePath();
     }
 
     //use pretty print sas default
@@ -65,7 +77,7 @@ public class SerializationTests {
     }
 
     //filepath is where the json string resides
-    private <T> T deserializeWithGson(String filePath, Type pojo) {
+    private <T> T deserializeWithGson(String filePath, Type pojo) throws FileNotFoundException {
         FileUtils fileUtils = new FileUtils();
         String retrievedJson = fileUtils.getFileContent(filePath);
         Gson gson = new Gson();

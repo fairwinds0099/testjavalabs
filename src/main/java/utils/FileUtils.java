@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class FileUtils {
 
+
     public String getFileContent(String filePath) {
         StringBuilder result = new StringBuilder();
 
