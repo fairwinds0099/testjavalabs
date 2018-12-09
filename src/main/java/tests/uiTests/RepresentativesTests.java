@@ -1,20 +1,12 @@
+/*
 package tests.uiTests;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import domain.Pojos.AllStatesRepPojo;
-import domain.Pojos.PojoRepList;
-import domain.Pojos.Representatives;
-import org.apache.commons.collections.bag.SynchronizedSortedBag;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.support.PageFactory;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import org.springframework.beans.BeanUtils;
 
 
 import java.io.File;
@@ -28,7 +20,8 @@ public class RepresentativesTests extends UITestBase {
     String result = "[Byrne, Bradley, Roby, Martha, Rogers, Mike, Aderholt, Robert, Brooks, Mo, Palmer, Gary, Sewell, Terri A.]";
 
 
-    /**
+    */
+/**
      * Click representatives link
      * List by state and district
      * call getAllRepresentativeNamesForSelectedState method from directory page
@@ -36,7 +29,8 @@ public class RepresentativesTests extends UITestBase {
      * Convert into string format
      * Prepare a string variable for expected result with respective values
      * Check if actual and expected matches
-     */
+     *//*
+
     @Test
     public void allRepsNamesForSelectedStateShouldDisplayed() {
         homePage.clickRepresentativesLink();
@@ -145,3 +139,4 @@ public class RepresentativesTests extends UITestBase {
     }
 }
 
+*/
