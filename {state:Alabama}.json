@@ -1,0 +1,19 @@
+{
+  "state": "Alabama",
+  "repsList": [
+    {
+      "name": "Jacob",
+      "district": "1st",
+      "party": "R",
+      "officeRoom": "119 CHOB",
+      "phone": "111222333"
+    },
+    {
+      "name": "Gox",
+      "district": "12nd",
+      "party": "D",
+      "officeRoom": "212 CHOB",
+      "phone": "222111444"
+    }
+  ]
+}
