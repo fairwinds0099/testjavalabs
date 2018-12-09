@@ -1,14 +1,12 @@
 package domain.Pojos;
 
-import com.alibaba.fastjson.annotation.JSONField;
+import java.util.List;
 
-import java.util.Date;
+public class PojoRep {
 
-public class PojoReps {
     private String name;
     private String party;
-    @JSONField(ordinal = 3, name="DATE OF BIRTH", format="dd/MM/yyyy")
-    private Date dateOfBirth;
+    private List<String> committees;
 
     public String getName() {
         return name;
@@ -26,8 +24,11 @@ public class PojoReps {
         this.party = party;
     }
 
-    public Date getDateOfBirth(){return dateOfBirth;}
+    public List<String> getCommittees() {
+        return committees;
+    }
 
-    public void setDateOfBirth(Date DateOfBirth){ this.dateOfBirth = dateOfBirth;}
-
+    public void setCommittees(List<String> committees) {
+        this.committees = committees;
+    }
 }
