@@ -34,8 +34,8 @@ public class SerializationTests {
 
         //fill objRepAlabama1 info
         objRepAlabama1.setName("Bradley Byrene");
-        objRepAlabama1.setParty("R");
-        objRepAlabama1.setCommittees(listCommitteesRepAlabama1);
+        //objRepAlabama1.setParty("R");
+        //objRepAlabama1.setCommittees(listCommitteesRepAlabama1);
 
         // fill alabamaState info
         objRepAlabama2.setName("Terri Sewell");

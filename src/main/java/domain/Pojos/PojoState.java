@@ -22,6 +22,4 @@ public class PojoState {
     public void setReps(List<PojoRep> reps) {
         this.reps = reps;
     }
-
-
 }
