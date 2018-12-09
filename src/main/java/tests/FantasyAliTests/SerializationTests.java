@@ -7,11 +7,16 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import domain.Pojos.PojoRep;
 import domain.Pojos.PojoState;
+import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class SerializationTests {
 
@@ -84,6 +89,14 @@ public class SerializationTests {
         System.out.println(retrievedRep1.getCommittees().toString());
     }
 
+// TODO this implementation works but it is ugly
+    @Test
+    public void readfileTest() throws IOException {
+        String retrievedText = (String) FileUtils.readFileToString(new File("resources/alabamaRepsWithGson.json"), "UTF-8");
+        System.out.println(retrievedText);
+    }
+
+
     //Below methods to be moved to JsonUtils or RestUtils
 
 
@@ -111,4 +124,29 @@ public class SerializationTests {
         return gson.fromJson(json, pojo);
     }
 
+//TODO this implementation returns NPE
+    private String getFile(String fileName) {
+
+        StringBuilder result = new StringBuilder("");
+
+        //Get file from  folder
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file =new File(classLoader.getResource(fileName).getFile());
+
+        try (Scanner scanner = new Scanner(file)) {
+
+            while (scanner.hasNextLine()) {
+                String line = scanner.nextLine();
+                result.append(line).append("\n");
+            }
+
+            scanner.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return result.toString();
+
+    }
 }
