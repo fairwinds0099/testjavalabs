@@ -5,18 +5,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import domain.Pojos.PojoState;
 import domain.Pojos.PojoRep;
+import domain.Pojos.PojoState;
 import org.junit.Test;
-import utils.FileUtils;
-import utils.RestUtils.JsonUtils;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class SerializationTests {
 
@@ -116,5 +111,4 @@ public class SerializationTests {
         return gson.fromJson(json, pojo);
     }
 
-   
 }
