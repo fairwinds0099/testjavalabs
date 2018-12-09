@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import utils.FileUtils;
 
 import java.lang.reflect.Type;
 
@@ -16,7 +15,7 @@ public class JsonUtils {
         return gson.toJson(obj);
     }
 
-    //use pretty print sas default
+    //use pretty print as default
     public static String serializeWithJackson(Object obj) {
         ObjectMapper mapper = new ObjectMapper();
         //mapper.enable(SerializationFeature.INDENT_OUTPUT);
@@ -28,10 +27,8 @@ public class JsonUtils {
         return null;
     }
 
-    //ideally json shoudl be coming froim a filepath
-    public static <T> T deserializeWithGson(String retrievedJson, Type pojo) {
-        FileUtils fileUtils = new FileUtils();
+    public static <T> T deserializeWithGson(String retrievedJson, Type pojoClass) {
         Gson gson = new Gson();
-        return gson.fromJson(retrievedJson, pojo);
+        return gson.fromJson(retrievedJson, pojoClass);
     }
 }
