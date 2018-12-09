@@ -1,4 +1,4 @@
-package utils.RestUtils;
+package miscellaneous;
 import java.util.Arrays;
 
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;

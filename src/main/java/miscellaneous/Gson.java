@@ -1,4 +1,4 @@
-package utils.RestUtils;
+package miscellaneous;
 
 public class Gson {
     public String toJson(Object obj) {
