@@ -20,6 +20,19 @@ public class Dao {
         }
         return resultSet;
     }
+
+    public void executeBatch(String dbUri, String userName, String password, List<String> query) {
+        try {
+            Statement statement = getDbConnection(dbUri, userName, password).createStatement();
+            for(String element : query) {
+                statement.addBatch(element);
+            }
+            statement.executeBatch();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     private Connection getDbConnection(String dbUri, String userName, String password) throws SQLException {
         Connection conn = null;
         //try {
