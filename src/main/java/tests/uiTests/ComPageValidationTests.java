@@ -56,7 +56,7 @@ public class ComPageValidationTests {
     @Test
     public void comPageCommitteesListOutput(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver4mac");
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new HtmlUnitDriver();
         HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
         CommitteesPage committeesPage = new PageFactory().initElements(driver, CommitteesPage.class);
 
