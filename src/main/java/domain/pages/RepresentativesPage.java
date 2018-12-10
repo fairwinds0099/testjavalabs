@@ -9,13 +9,14 @@ public class RepresentativesPage {
     WebDriver driver;
 
     @FindBy (css = "#state-alabama")
-    private static WebElement RepresentativesPageStateName;
+    private static WebElement representativesPageStateName;
 
     public RepresentativesPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public static boolean isRepresentativesPageStateNameDisplayed(){
-        return RepresentativesPageStateName.isDisplayed();
+        return representativesPageStateName.isDisplayed();
     }
 }
+
