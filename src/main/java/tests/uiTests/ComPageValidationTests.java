@@ -52,4 +52,22 @@ public class ComPageValidationTests {
         System.out.println(committeesPage.isCommitteesPageAgricultureLinkDisplayed());
         driver.close();
     }
+
+    @Test
+    public void comPageCommitteesListOutput(){
+        System.setProperty("webdriver.chrome.driver", "resources/chrome-driver");
+        WebDriver driver = new ChromeDriver();
+        HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
+        CommitteesPage committeesPage = new PageFactory().initElements(driver, CommitteesPage.class);
+
+        driver.get("https://www.house.gov");
+        homePage.isHomePageZipCodeInputPresent();
+        homePage.clickCommitteesLink();
+        committeesPage.isCommitteesPageAgricultureLinkDisplayed();
+        committeesPage.fetchListOfCommittees();
+
+
+
+        driver.close();
+    }
 }
