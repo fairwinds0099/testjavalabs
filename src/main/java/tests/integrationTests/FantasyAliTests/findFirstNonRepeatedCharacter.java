@@ -1,4 +1,4 @@
-package tests.FantasyAliTests;
+package tests.integrationTests.FantasyAliTests;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

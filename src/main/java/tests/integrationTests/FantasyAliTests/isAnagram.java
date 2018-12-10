@@ -1,4 +1,4 @@
-package tests.FantasyAliTests;
+package tests.integrationTests.FantasyAliTests;
 
 public class isAnagram {
 

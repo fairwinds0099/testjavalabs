@@ -3,13 +3,9 @@ package domain.Pojos;
 import java.util.List;
 
 public class PojoState {
+
     private String state;
     private List<PojoRep> reps;
-
-    public PojoState(String state, List<PojoRep> reps){
-        this.state = state;
-        this.reps = reps;
-    }
 
     public String getState() {
         return state;
@@ -26,8 +22,4 @@ public class PojoState {
     public void setReps(List<PojoRep> reps) {
         this.reps = reps;
     }
-
-
-
-
 }

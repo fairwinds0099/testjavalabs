@@ -3,22 +3,25 @@ package domain.Pojos;
 import java.util.List;
 
 public class PojoRep {
+
     private String name;
-    private String phone;
+    private String party;
     private List<String> committees;
 
-    public PojoRep(String name, String phone, List<String> committees){
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
-        this.phone = phone;
-        this.committees = committees;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getParty() {
+        return party;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setParty(String party) {
+        this.party = party;
     }
 
     public List<String> getCommittees() {
@@ -28,8 +31,4 @@ public class PojoRep {
     public void setCommittees(List<String> committees) {
         this.committees = committees;
     }
-
-
-
-
 }
