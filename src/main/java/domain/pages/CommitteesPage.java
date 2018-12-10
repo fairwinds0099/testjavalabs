@@ -16,6 +16,7 @@ public class CommitteesPage {
 
     @FindBy(css = "#main-content-section > div:nth-child(2) > section > div > article > div > div.page.body > div > section > div > div:nth-child(2)")
     private static WebElement listOfCommitteesPart2;
+
     public CommitteesPage(WebDriver driver) {
         this.driver = driver;
     }

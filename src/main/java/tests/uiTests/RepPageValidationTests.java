@@ -13,7 +13,7 @@ public class RepPageValidationTests {
 
     @Test
     public void repPageLogoShouldAppearWithChrome(){
-        System.setProperty("webdriver.chrome.driver", "resources/chrome-driver");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver4mac");
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
         RepresentativesPage representativesPage = new PageFactory().initElements(driver, RepresentativesPage.class);
@@ -41,7 +41,7 @@ public class RepPageValidationTests {
 
     @Test
     public void repPageShouldWorkHeadlessTest(){
-        System.setProperty("webdriver.chrome.driver", "resources/chrome-driver");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver4mac");
         WebDriver driver = new HtmlUnitDriver();
         HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
         RepresentativesPage representativesPage = new PageFactory().initElements(driver, RepresentativesPage.class);

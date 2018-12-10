@@ -12,7 +12,7 @@ public class HomePageValidationTests {
 
     @Test
     public void homePageLogoShouldAppearWithChrome(){
-        System.setProperty("webdriver.chrome.driver", "resources/chrome-driver");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver4mac");
         WebDriver driver = new ChromeDriver();
         HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
 
@@ -34,7 +34,7 @@ public class HomePageValidationTests {
 
     @Test
     public void homePageShouldWorkHeadlessTest(){
-        System.setProperty("webdriver.chrome.driver", "resources/chrome-driver");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver4mac");
         WebDriver driver = new HtmlUnitDriver();
         HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
 
