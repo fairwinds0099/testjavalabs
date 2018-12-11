@@ -5,8 +5,8 @@ import domain.pages.RepresentativesPage;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public class RepPageValidationTests {
@@ -42,7 +42,9 @@ public class RepPageValidationTests {
     @Test
     public void repPageShouldWorkHeadlessTest(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver4mac");
-        WebDriver driver = new HtmlUnitDriver();
+        ChromeOptions chromeOptions= new ChromeOptions();
+        chromeOptions.addArguments("headless");
+        WebDriver driver = new ChromeDriver(chromeOptions);
         HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
         RepresentativesPage representativesPage = new PageFactory().initElements(driver, RepresentativesPage.class);
 

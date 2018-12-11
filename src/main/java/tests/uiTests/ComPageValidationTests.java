@@ -5,6 +5,7 @@ import domain.pages.HomePage;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -42,7 +43,9 @@ public class ComPageValidationTests {
     @Test
     public void comPageShouldWorkHeadlessTest(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver4mac");
-        WebDriver driver = new HtmlUnitDriver();
+        ChromeOptions chromeOptions= new ChromeOptions();
+        chromeOptions.addArguments("headless");
+        WebDriver driver = new ChromeDriver(chromeOptions);
         HomePage homePage = new PageFactory().initElements(driver, HomePage.class);
         CommitteesPage committeesPage = new PageFactory().initElements(driver, CommitteesPage.class);
 
