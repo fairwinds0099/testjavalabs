@@ -1,12 +1,9 @@
 package tests.uiTests;
 
-import domain.pages.DirectoryPage;
-import domain.pages.HomePage;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.support.PageFactory;
 
-public class FormatValidationTests extends UITestBase {
+public class FormatValidationTest extends UITestBase {
 
     /**
      * Create a desired format in "checkFormatInTheRowsForSelectedState" method in HomePage.

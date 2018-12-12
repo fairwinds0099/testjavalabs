@@ -1,14 +1,11 @@
 package tests.uiTests;
 
-import domain.pages.DirectoryPage;
-import domain.pages.HomePage;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.support.PageFactory;
 
 import static org.junit.Assert.assertEquals;
 
-public class PartyTests extends UITestBase {
+public class PartyTest extends UITestBase {
     /**
      * Go to representatives.
      * List by state and district.

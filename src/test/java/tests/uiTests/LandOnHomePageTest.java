@@ -1,11 +1,9 @@
 package tests.uiTests;
 
-import domain.pages.HomePage;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.support.PageFactory;
 
-public class LandOnHomePageTests extends UITestBase {
+public class LandOnHomePageTest extends UITestBase {
     /**
      * Validate if landed on homepage
      */

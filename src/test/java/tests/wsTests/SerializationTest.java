@@ -8,7 +8,7 @@ import utils.RestUtils.JsonUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SerializationTests {
+public class SerializationTest {
 
     PojoRep objRepAlabama1 = new PojoRep();
     PojoRep objRepAlabama2 = new PojoRep();

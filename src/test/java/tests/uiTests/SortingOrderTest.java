@@ -1,14 +1,10 @@
 package tests.uiTests;
 
-import domain.pages.DirectoryPage;
-
-import domain.pages.HomePage;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.support.PageFactory;
 
 
-public class SortingOrderTests extends UITestBase {
+public class SortingOrderTest extends UITestBase {
 
     /**
      * Go to representatives.

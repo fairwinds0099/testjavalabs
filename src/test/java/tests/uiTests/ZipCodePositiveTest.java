@@ -1,19 +1,16 @@
 package tests.uiTests;
 
-import domain.pages.HomePage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.support.PageFactory;
 
 import java.util.Arrays;
-import java.util.Collection;
 
 import static junit.framework.TestCase.assertTrue;
 
 @RunWith(Parameterized.class)
-public class ZipCodePositiveTests extends UITestBase {
+public class ZipCodePositiveTest extends UITestBase {
 
     /**
      * Call for enterZipCode method from Homepage.

@@ -8,7 +8,7 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 
 @RunWith(Parameterized.class)
-public class ZipCodeNegativeTests extends UITestBase {
+public class ZipCodeNegativeTest extends UITestBase {
 
     /**
      * Call for enterZipCode method from Homepage.

@@ -1,3 +1,4 @@
+/*
 package tests.dbTests;
 
 
@@ -6,7 +7,6 @@ import org.junit.Test;
 import utils.DbUtils.Dao;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
@@ -33,3 +33,4 @@ public class DbTest extends Dao {
         System.out.println(retrievedStates.toString());
     }
 }
+*/

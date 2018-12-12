@@ -1,15 +1,12 @@
 package tests.uiTests;
 
-import domain.pages.DirectoryPage;
-import domain.pages.HomePage;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.support.PageFactory;
 
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 
-public class StatesTests extends UITestBase {
+public class StatesTest extends UITestBase {
 
     //TODO this test fails
 

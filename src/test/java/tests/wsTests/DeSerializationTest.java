@@ -8,12 +8,12 @@ import utils.RestUtils.JsonUtils;
 
 import java.util.List;
 
-public class DeSerializationTests {
+public class DeSerializationTest {
 
     @Test
     public void deserialize() {
 
-        String retrievedJson = (FileHelpers.getFileContent("resources/alabamaRepsWithGson.json"));
+        String retrievedJson = (FileHelpers.getFileContent("src/main/resources/alabamaRepsWithGson.json"));
 
         PojoState deserializedState = JsonUtils.deserializeWithGson(retrievedJson, PojoState.class);
         System.out.println(deserializedState.getState());
