@@ -147,11 +147,9 @@
                             <parallel>classes</parallel>
                             <threadCount>3</threadCount>
                             <includes>
-                                <include>**/java/suites/SmokeTestingSuite.class</include>
+                                <include>**/suites/SmokeTestingSuite.class</include>
                             </includes>
-
-
-                            <testClassesDirectory>${project.build.directory}</testClassesDirectory>
+                            <!--testClassesDirectory>${project.build.directory}</testClassesDirectory-->
                         </configuration>
                     </plugin>
                 </plugins>
