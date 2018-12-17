@@ -52,7 +52,7 @@ public class DatabaseConnection {
         this.dbUri = builder.dbUri;
         this.dbUserName = builder.dbUserName;
         this.dbPassword = builder.dbPassword;
-        this.dbPort = "1521";
+        this.dbPort = builder.dbPort;
         this.dbName = builder.dbName;
     }
 
@@ -69,8 +69,13 @@ public class DatabaseConnection {
     }
 
     public String getDbPort() {
-        return dbPort;
-    }
+        if (dbPort != "1521") {
+            return dbPort;
+        }else{
+            return "1521";
+            }
+
+        }
 
     public String getDbName(){
         return dbName;
