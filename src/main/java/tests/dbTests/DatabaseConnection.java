@@ -6,6 +6,8 @@ public class DatabaseConnection {
         private String dbUri;
         private String dbUserName;
         private String dbPassword;
+        private String dbPort;
+        private String dbName;
 
         public Builder() {
         }
@@ -28,16 +30,30 @@ public class DatabaseConnection {
             this.dbPassword = dbPassword;
             return this;
         }
+
+        public Builder dbPort(String dbPort){
+            this.dbPort = dbPort;
+            return this;
+        }
+
+        public Builder dbName(String dbName){
+            this.dbName = dbName;
+            return this;
+        }
     }
 
     private final String dbUri;
     private final String dbUserName;
     private final String dbPassword;
+    private final String dbPort;
+    private final String dbName;
 
     private DatabaseConnection(Builder builder) {
         this.dbUri = builder.dbUri;
         this.dbUserName = builder.dbUserName;
         this.dbPassword = builder.dbPassword;
+        this.dbPort = "1521";
+        this.dbName = builder.dbName;
     }
 
     public String getDbUri() {
@@ -50,5 +66,13 @@ public class DatabaseConnection {
 
     public String getDbPassword() {
         return dbPassword;
+    }
+
+    public String getDbPort() {
+        return dbPort;
+    }
+
+    public String getDbName(){
+        return dbName;
     }
 }
