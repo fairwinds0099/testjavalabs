@@ -16,11 +16,10 @@ public class DbTestWithBuilder {
             .build();
 
     FileHelpers fileHelpers = new FileHelpers();
-    //String query = fileHelpers.getFileContent("insertReps.sql");
-String query = "INSERT INTO REPRESENTATIVES (NAME, PARTY) VALUES ('GO', 'ZAWAY')";
+    String query = fileHelpers.getFileContent("insertReps.sql");
+
     @Test
     public void myTest() {
         DaoHelper.runSqlQuery(rdsAws, query);
     }
-
 }
