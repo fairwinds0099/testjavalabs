@@ -6,14 +6,17 @@ import org.junit.Test;
 import utils.FileHelpers;
 import utils.RestUtils.JsonUtils;
 
+import java.io.File;
 import java.util.List;
 
 public class DeSerializationTest {
 
+    FileHelpers fileHelpers = new FileHelpers();
+
     @Test
     public void deserialize() {
 
-        String retrievedJson = (FileHelpers.getFileContent("src/main/resources/alabamaRepsWithGson.json"));
+        String retrievedJson = (fileHelpers.getFileContent("src/main/resources/alabamaRepsWithGson.json"));
 
         PojoState deserializedState = JsonUtils.deserializeWithGson(retrievedJson, PojoState.class);
         System.out.println(deserializedState.getState());

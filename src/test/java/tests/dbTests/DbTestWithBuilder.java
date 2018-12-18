@@ -2,22 +2,25 @@ package tests.dbTests;
 
 import org.junit.Test;
 import utils.DaoHelper;
+import utils.FileHelpers;
 import utils.ServerConfig;
 
 public class DbTestWithBuilder {
 
     ServerConfig rdsAws = ServerConfig.getConfiguration()
-            .withHostName("orcl.cn1e1hoy5jio.us-east-1.rds.amazonaws.com")
+            .withHostName("mydbinstance.cn1e1hoy5jio.us-east-1.rds.amazonaws.com")
             .withPort(1521)
             .withDbName("ORCL")
-            .withPassword("gxl")
-            .withUserName("Sb123456")
+            .withUserName("fairwinds")
+            .withPassword("Sb123456")
             .build();
 
+    FileHelpers fileHelpers = new FileHelpers();
+    //String query = fileHelpers.getFileContent("insertReps.sql");
+String query = "INSERT INTO REPRESENTATIVES (NAME, PARTY) VALUES ('GO', 'ZAWAY')";
     @Test
     public void myTest() {
-        DaoHelper.getAllRecordsForColumn(rdsAws, "select * from reps", "NAME" );
-
+        DaoHelper.runSqlQuery(rdsAws, query);
     }
 
 }

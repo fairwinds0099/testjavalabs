@@ -68,6 +68,7 @@
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-java:0.9.11" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm:7.0-beta" level="project" />
     <orderEntry type="library" name="Maven: com.thoughtworks.qdox:qdox:2.0-M9" level="project" />
+    <orderEntry type="library" name="Maven: com.oracle:ojdbc8:12.2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-site-renderer:1.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.doxia:doxia-core:1.8" level="project" />

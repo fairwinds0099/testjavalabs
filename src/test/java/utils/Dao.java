@@ -10,6 +10,17 @@ import java.util.List;
 
 public class Dao {
 
+    public List<String> getAllRecordsForColumn(String dbUri, String userName, String password, String queryRead, String columnName) throws SQLException {
+        List<String> listOfColumns = new ArrayList<String>();
+
+        ResultSet rs = executeQuery(dbUri, userName, password, queryRead);
+
+        while (rs.next()){
+            listOfColumns.add(rs.getString(columnName));
+        }
+        return listOfColumns;
+    }
+
     private ResultSet executeQuery(String dbUri, String userName, String password, String sqlQuery) {
         ResultSet resultSet = null;
         try {
@@ -20,25 +31,17 @@ public class Dao {
         }
         return resultSet;
     }
-    private Connection getDbConnection(String dbUri, String userName, String password) throws SQLException {
+
+    private Connection getDbConnection(String dbUri, String userName, String password) {
         Connection conn = null;
-        //try {
+        try {
             conn = DriverManager.getConnection(dbUri, userName, password);
-       // } catch (SQLException e) {
+       } catch (SQLException e) {
          //   e.printStackTrace();
-       // }
+       }
         return conn;
     }
-    public List<String> getAllRecordsForColumn(String dbUri, String userName, String password, String queryRead, String columnName) throws SQLException {
-        List<String> listOfColumns = new ArrayList<String>();
 
-       ResultSet rs = executeQuery(dbUri, userName, password, queryRead);
-
-       while (rs.next()){
-           listOfColumns.add(rs.getString(columnName));
-       }
-               return listOfColumns;
-    }
 }
 
 

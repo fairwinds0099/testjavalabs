@@ -27,15 +27,27 @@ public class DaoHelper {
         } catch (SQLException e) {
             // do nothing
         }
-        System.out.println(dbUri);
         return listOfColumns;
     }
 
 
+    public static void runSqlQuery(ServerConfig dbServer, String sqlQuery) {
+        String dbUri = String.format("jdbc:oracle:thin:@//%s:%d/%s", dbServer.getHostName(),
+                dbServer.getPort(), dbServer.getDbName());
+
+        Connection connection = null;
+        Statement statement = null;
+        try {
+            connection = DriverManager.getConnection(dbUri, dbServer.getUserName(), dbServer.getPassword());
+            statement = connection.createStatement();
+            statement.executeUpdate(sqlQuery);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
 
-
-
+    //mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar -Dfile=/Users/gx/Desktop/ExperimentsSw/ojdbc8.jar -DgeneratePom=true
 }
 
 

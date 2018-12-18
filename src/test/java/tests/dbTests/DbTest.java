@@ -1,4 +1,3 @@
-/*
 package tests.dbTests;
 
 
@@ -12,25 +11,23 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Properties;
 
-public class DbTest extends Dao {
+/*public class DbTest {
     String queryRead;
-    static String dbUri;
-    static String userName;
-    static String password;
-    static Properties prop = new Properties();
+    Properties prop = new Properties().load(new FileInputStream("config.properties"));
+    Dao dao = null;
 
-    @BeforeClass
-    public static void init() throws IOException {
-        prop.load(new FileInputStream("config.properties"));
-        dbUri = prop.getProperty("dbUri");
-        userName = prop.getProperty("userName");
-        password = prop.getProperty("password");
+    String dbUri = prop.getProperty("dbUri");
+    String userName = prop.getProperty("userName");
+    String password = prop.getProperty("password");
+
+    public DbTest() throws IOException {
     }
+
 
     @Test
     public void myTest() throws SQLException {
-        List<String> retrievedStates = getAllRecordsForColumn(dbUri, userName, password, queryRead, "STATE");
+
+        List<String> retrievedStates = dao.getAllRecordsForColumn(dbUri, userName, password, queryRead, "STATE");
         System.out.println(retrievedStates.toString());
     }
-}
-*/
+}*/

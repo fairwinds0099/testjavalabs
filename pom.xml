@@ -51,11 +51,11 @@
             <type>maven-plugin</type>
         </dependency>
 
-        <!--dependency>
+        <dependency>
             <groupId>com.oracle</groupId>
-            <artifactId>ora-jdbc</artifactId>
-            <version></version>
-        </dependency-->
+            <artifactId>ojdbc8</artifactId>
+            <version>12.2.0.1</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.maven.doxia</groupId>
             <artifactId>doxia-site-renderer</artifactId>
