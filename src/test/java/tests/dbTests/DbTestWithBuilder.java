@@ -2,7 +2,6 @@ package tests.dbTests;
 
 import org.junit.Test;
 import utils.DaoHelper;
-import utils.DbHelpers.Dao;
 import utils.ServerConfig;
 
 public class DbTestWithBuilder {
