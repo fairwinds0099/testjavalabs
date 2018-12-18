@@ -18,8 +18,28 @@ public class DbTestWithBuilder {
     FileHelpers fileHelpers = new FileHelpers();
     String query = fileHelpers.getFileContent("insertReps.sql");
 
+    //TODO try adding more than one rep within one query
+    //This is an insert into query
     @Test
-    public void myTest() {
+    public void addRepresentativeTest() {
         DaoHelper.runSqlQuery(rdsAws, query);
+    }
+
+    //TODO
+    @Test
+    public void retrieveRepresentativesTest() {
+
+    }
+
+    //TODO
+    @Test
+    public void deleteRepresentativeTest() {
+
+    }
+
+    //TODO
+    @Test
+    public void updateRepresentativeTest() {
+
     }
 }
