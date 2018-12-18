@@ -3,7 +3,7 @@ package tests.wsTests;
 import domain.Pojos.PojoRep;
 import domain.Pojos.PojoState;
 import org.junit.Test;
-import utils.RestUtils.JsonUtils;
+import utils.JsonUtils;
 
 import java.util.ArrayList;
 import java.util.List;

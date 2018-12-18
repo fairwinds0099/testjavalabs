@@ -4,9 +4,8 @@ import domain.Pojos.PojoRep;
 import domain.Pojos.PojoState;
 import org.junit.Test;
 import utils.FileHelpers;
-import utils.RestUtils.JsonUtils;
+import utils.JsonUtils;
 
-import java.io.File;
 import java.util.List;
 
 public class DeSerializationTest {
