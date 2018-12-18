@@ -1,4 +1,4 @@
-package utils.DbUtils;
+package utils;
 
 public class ServerConfig {
 
@@ -19,32 +19,32 @@ public class ServerConfig {
         private ServerConfigurator() {
         }
 
-        public ServerConfigurator withHostName() {
+        public ServerConfigurator withHostName(String hostName) {
             this.hostName = hostName;
             return this;
         }
 
-        public ServerConfigurator withUserName() {
+        public ServerConfigurator withUserName(String userName) {
             this.userName = userName;
             return this;
         }
 
-        public ServerConfigurator withPassword() {
+        public ServerConfigurator withPassword(String password) {
             this.password = password;
             return this;
         }
 
-        public ServerConfigurator withPort() {
+        public ServerConfigurator withPort(int port) {
             this.port = port;
             return this;
         }
 
-        public ServerConfigurator withDbName() {
+        public ServerConfigurator withDbName(String dbName) {
             this.dbName = dbName;
             return this;
         }
 
-        public ServerConfig finishConfiguration() {
+        public ServerConfig build() {
             return new ServerConfig(this);
         }
     }
@@ -57,7 +57,7 @@ public class ServerConfig {
         this.dbName = builder.dbName;
     }
 
-    public static ServerConfigurator getConfiguraton() {
+    public static ServerConfigurator getConfiguration() {
         return new ServerConfigurator();
     }
 

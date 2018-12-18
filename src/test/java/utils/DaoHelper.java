@@ -1,12 +1,14 @@
-package utils.DbUtils;
+package utils;
+
+import utils.ServerConfig;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DaoBuilder {
+public class DaoHelper {
 
-    public List<String> getAllRecordsForColumn(ServerConfig dbServer, String sqlQuery, String columnName) {
+    public static List<String> getAllRecordsForColumn(ServerConfig dbServer, String sqlQuery, String columnName) {
         String dbUri = String.format("jdbc:oracle:thin:@//%s:%d/%s", dbServer.getHostName(), dbServer.getPort(), dbServer.getDbName());
         List<String> listOfColumns = new ArrayList<String>();
 
@@ -25,13 +27,14 @@ public class DaoBuilder {
         } catch (SQLException e) {
             // do nothing
         }
+        System.out.println(dbUri);
         return listOfColumns;
     }
 
 
 
 
-    
+
 
 }
 

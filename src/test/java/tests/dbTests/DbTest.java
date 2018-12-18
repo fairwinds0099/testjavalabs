@@ -4,7 +4,7 @@ package tests.dbTests;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import utils.DbUtils.Dao;
+import utils.DbHelpers.Dao;
 
 import java.io.FileInputStream;
 import java.io.IOException;
