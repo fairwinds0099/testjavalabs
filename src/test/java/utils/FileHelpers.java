@@ -5,6 +5,8 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 public class FileHelpers {
 
@@ -18,5 +20,13 @@ public class FileHelpers {
             e.printStackTrace();
         }
         return  retrievedText;
+    }
+
+    public List<String> getQueriesFromFile(String filepath, String splitter) {
+        String query = getFileContent(filepath);
+        String queries[] = query.split(splitter);
+        List<String> queryList = Arrays.asList(queries);
+        System.out.println(queryList);
+        return queryList;
     }
 }
