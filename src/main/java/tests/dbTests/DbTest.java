@@ -2,7 +2,7 @@
 //
 //
 //import org.junit.BeforeClass;
-//import org.junit.Test;
+//import org.junit.SerializationTest;
 //import utils.DbUtils.Dao;
 //
 //import java.io.FileInputStream;
@@ -27,7 +27,7 @@
 //        password = prop.getProperty("password");
 //    }
 //
-//    @Test
+//    @SerializationTest
 //    public void myTest() throws SQLException {
 //        List<String> retrievedStates = getAllRecordsForColumn(dbUri, userName, password, queryRead, "STATE");
 //        System.out.println(retrievedStates.toString());
