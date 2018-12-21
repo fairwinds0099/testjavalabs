@@ -1,5 +1,6 @@
 package tests.wsTests;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import domain.Pojos.PojoRep;
 import domain.Pojos.PojoState;
 import org.junit.Test;
