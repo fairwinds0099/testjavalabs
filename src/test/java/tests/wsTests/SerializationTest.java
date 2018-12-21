@@ -1,6 +1,5 @@
 package tests.wsTests;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import domain.Pojos.PojoRep;
 import domain.Pojos.PojoState;
 import org.junit.Test;
@@ -50,4 +49,28 @@ public class SerializationTest {
         System.out.println(JsonUtils.serializeWithGson(objAlabamaReps));
     }
 
+    // the JSON has a structure of {
+    //  "state": "Alabama",
+    //  "reps": [
+    //    {
+    //      "name": "Bradley Byrene",
+    //      "party": "R",
+    //      "committees": [
+    //        "AS",
+    //        "EW"
+    //      ]
+    //    },
+    //    {
+    //      "name": "Terri Sewell",
+    //      "party": "D",
+    //      "committees": [
+    //        "Intel",
+    //        "ways and means"
+    //      ]
+    //    }
+    //  ]
+    //}
+
+    // {  [{  []} {  []}]}
+    // [] refer to a list whereas {} refer to an object
 }

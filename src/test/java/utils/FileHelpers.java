@@ -1,17 +1,15 @@
 package utils;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
 public class FileHelpers {
 
+    //gets the content of a file in resources folder
     public String getFileContent(String filePath) {
-
         ClassLoader classLoader = getClass().getClassLoader();
         String retrievedText = null;
         try {
@@ -22,6 +20,7 @@ public class FileHelpers {
         return  retrievedText;
     }
 
+    //intents to get the list of queries from a .sql file in resources
     public List<String> getQueriesFromFile(String filepath, String splitter) {
         String query = getFileContent(filepath);
         String queries[] = query.split(splitter);

@@ -6,7 +6,7 @@ import utils.ServerHelpers;
 
 public class ServerConnectionTest {
 
-//TODO get a remote linux 
+//TODO get a remote linux
     ServerConfig ec2Aws = ServerConfig.getConfiguration()
             .withHostName("mydbinstance.cn1e1hoy5jio.us-east-1.rds.amazonaws.com")
             .withPort(1521)
@@ -16,8 +16,7 @@ public class ServerConnectionTest {
             .build();
 
     @Test
-    public void sendMakeDirCommandTOServer() {
+    public void sendMakeDirCommandToServer() {
         ServerHelpers.executeCommand("mkdir resources", ec2Aws);
     }
-
 }
