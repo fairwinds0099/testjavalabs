@@ -14,7 +14,8 @@ public class ServerConnectionTest {
             .withUserName("fairwinds")
             .withPassword("Sb123456")
             .build();
-
+    
+//TODO make this test run
     @Test
     public void sendMakeDirCommandToServer() {
         ServerHelpers.executeCommand("mkdir resources", ec2Aws);
