@@ -68,9 +68,6 @@ public class ComPageValidationTests {
         homePage.clickCommitteesLink();
         committeesPage.isCommitteesPageAgricultureLinkDisplayed();
         committeesPage.fetchListOfCommittees();
-
-
-
         driver.close();
     }
 }
