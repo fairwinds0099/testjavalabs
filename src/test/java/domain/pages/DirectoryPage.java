@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.sql.Driver;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -19,7 +20,8 @@ import static java.util.stream.Collectors.toList;
 
 public class DirectoryPage extends HomePage {
 
-    private String stateTextXpath = "//*[@id='%s']/..//td[2]";
+
+    private static String stateTextXpath = "//*[@id='%s']/..//td[2]";
     private String districtXpath = "//*[@id='%s']/..//td[1]";
     private String partyXpath = "//*[@id='%s']/..//td[3]";
     private String officeRoomXpath = "//*[@id='%s']/..//td[4]";
@@ -29,6 +31,9 @@ public class DirectoryPage extends HomePage {
     private String rowsXpath = "//caption[@id='state-alabama']/../tbody/tr";
     private String rowXpathForFirstState = "(//table[@class='table'])[1]/tbody/tr";
     private String repRowXpath = "//caption[@id='state-alabama']/../tbody/tr";
+
+    @FindBy(xpath = "//*[@id='state-alabama']/..//td[2]")
+    private static WebElement firstAlabamaRep;
 
     @FindBy(xpath =  "//h1[contains (text(), 'Directory of Representatives')]")
     private WebElement directoryOfRepresentativesText;
@@ -59,6 +64,9 @@ public class DirectoryPage extends HomePage {
 
     public boolean isAlabamaTextDisplayed(){ return alabamaText.isDisplayed();}
 
+    public static String getFirstRepNameForAlabama(){
+        return firstAlabamaRep.getText();
+    }
 
     public List<String> getAllRepresentativeNamesForSelectedState(String state){
         String stateXpath = String.format(stateTextXpath, state);
