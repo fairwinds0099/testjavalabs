@@ -1,4 +1,4 @@
-package tests.integrationTests.FantasyAliTests;
+package tests.ChallengeTests;
 
 import domain.pages.DirectoryPage;
 import domain.pages.HomePage;
