@@ -27,9 +27,6 @@ public class DaoHelper {
         } catch (SQLException e) {
             // do nothing
         }
-        System.out.println("connected to DB URI: " + dbUri);
-        System.out.println("executed SQL query: " + sqlQuery);
-        System.out.println("retrieved list of values in column: " + columnName);
         return listOfColumns;
     }
 
@@ -47,11 +44,9 @@ public class DaoHelper {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        System.out.println("connected to DB URI: " + dbUri);
-        System.out.println("executed SQL query: " + sqlQuery);
     }
 
-    //the follwing command should un first. make sure ojdbc8 is in m2 and add dependency to pom.xml
+
     //mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar -Dfile=/Users/gx/Desktop/ExperimentsSw/ojdbc8.jar -DgeneratePom=true
 }
 

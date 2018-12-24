@@ -1,0 +1,21 @@
+{
+  "state": "Alabama",
+  "reps": [
+    {
+      "name": "Bradley Byrene",
+      "party": "R",
+      "committees": [
+        "AS",
+        "EW"
+      ]
+    },
+    {
+      "name": "Terri Sewell",
+      "party": "D",
+      "committees": [
+        "Intel",
+        "ways and means"
+      ]
+    }
+  ]
+}

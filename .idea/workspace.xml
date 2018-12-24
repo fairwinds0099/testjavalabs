@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74853a52-f3ad-4448-9d5f-cb6797f6baa5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mytext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/miscellaneous/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/miscellaneous/TypeToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/UsePropertiesFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/alabamaRepsWithGson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/chromedriver4mac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/createRepsTable.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/insertName.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/insertReps.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mytext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/selectReps.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/domain/Pojos/PojoRep.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/domain/Pojos/PojoState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/domain/pages/DirectoryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/domain/pages/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/domain/pages/LeadershipPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/domain/pages/SearchResultsPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/frameworksupport/TestCaseStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/miscellaneous/TypeToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/suites/SmokeTestingSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/dbTests/DbTestWithBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/Restaurant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/ShouldCheckRepeatingCharactersInStates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/e2eTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/isAnagram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/FormatValidationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/LandOnDirectoryPageTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/LandOnHomePageTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/PartyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/SortingOrderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/StatesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/UITestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/ZipCodeNegativeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/ZipCodePositiveTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/wsTests/DeSerializationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/wsTests/SerializationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/Dao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/DaoHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/FileHelpers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/RestUtils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/ServerConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/ServerConfig$ServerConfigurator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/ServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/utils/UsePropertiesFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_475.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_dynamodb_1_11_475.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kms_1_11_475.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_s3_1_11_475.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_475.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/createRepsTable.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createRepsTable.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChallengeTests/ShouldCheckRepeatingCharactersInStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/ShouldCheckRepeatingCharactersInStates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChallengeTests/findFirstNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ChallengeTests/isAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/isAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/backEndTests/ServerConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithMultipleQueries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/integrationTests/e2eTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/uiTests/FormatValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FormatValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/wsTests/DeSerializationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/wsTests/DeSerializationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/wsTests/SerializationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/wsTests/SerializationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/DaoHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/DaoHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/FileHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/FileHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RestUtils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ServerHelpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/noSqlDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-java-labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-java-labs.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="e2eTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileHelpers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/FileHelpers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UITestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaoHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/DaoHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbTestWithBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandOnDirectoryPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/LandOnDirectoryPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerializerAndDeserializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertReps.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/insertReps.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="86" selection-end-line="1" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertName.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/insertName.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="aliBaba" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/domain/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/dbTests/DbTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodePositiveTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/insertReps.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/Pojos/PojoRep.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/selectReps.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithBuilder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/insertName.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="Pojos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frameworksupport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="miscellaneous" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="dbTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="FantasyAliTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="uiTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea/libraries" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DbTestWithBuilder.myTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.dbTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.dbTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.dbTests.DbTestWithBuilder" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="e2eTests.alabamaRepNameShouldBeMappedAndSerialized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.integrationTests.FantasyAliTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.integrationTests.FantasyAliTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.integrationTests.FantasyAliTests.e2eTests" />
+      <option name="METHOD_NAME" value="alabamaRepNameShouldBeMappedAndSerialized" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="e2eTests.alabamaRepNameShouldBeMappedToObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.integrationTests.FantasyAliTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.integrationTests.FantasyAliTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.integrationTests.FantasyAliTests.e2eTests" />
+      <option name="METHOD_NAME" value="alabamaRepNameShouldBeMappedToObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalized" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.integrationTests.FantasyAliTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.integrationTests.FantasyAliTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.integrationTests.FantasyAliTests.e2eTests" />
+      <option name="METHOD_NAME" value="serializedAlabamaRepNameShouldBeDeSerizalized" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.integrationTests.FantasyAliTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.integrationTests.FantasyAliTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.integrationTests.FantasyAliTests.e2eTests" />
+      <option name="METHOD_NAME" value="serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.e2eTests.alabamaRepNameShouldBeMappedToObject" />
+      <item itemvalue="JUnit.e2eTests.serializedAlabamaRepNameShouldBeDeSerizalized" />
+      <item itemvalue="JUnit.e2eTests.alabamaRepNameShouldBeMappedAndSerialized" />
+      <item itemvalue="JUnit.DbTestWithBuilder.myTest" />
+      <item itemvalue="JUnit.e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" />
+        <item itemvalue="JUnit.e2eTests.serializedAlabamaRepNameShouldBeDeSerizalized" />
+        <item itemvalue="JUnit.DbTestWithBuilder.myTest" />
+        <item itemvalue="JUnit.e2eTests.alabamaRepNameShouldBeMappedAndSerialized" />
+        <item itemvalue="JUnit.e2eTests.alabamaRepNameShouldBeMappedToObject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74853a52-f3ad-4448-9d5f-cb6797f6baa5" name="Default" comment="" />
+      <created>1544715427622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544715427622</updated>
+    </task>
+    <task id="LOCAL-00001" summary="DbConnection with Builder Class and Write to DB with Gson">
+      <created>1545533329416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545533329416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DbConnection with Builder Class and Write to DB with Gson">
+      <created>1545665405694</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545665405694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 27m 02s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 30m 12s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalized - 2018.12.22 at 18h 32m 58s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalized" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 33m 33s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 38m 42s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 40m 40s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 41m 16s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 43m 23s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 45m 02s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="e2eTests_serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb - 2018.12.22 at 18h 46m 06s.xml">
+      <configuration name="e2eTests.serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3317647" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982457" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26862028" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DbConnection with Builder Class and Write to DB with Gson" />
+    <option name="LAST_COMMIT_MESSAGE" value="DbConnection with Builder Class and Write to DB with Gson" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/RepPageValidationTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/pages/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DbUtils/Dao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/RestUtils/FluTrackTest.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4860">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="246" selection-start-line="246" selection-end-line="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/RestUtils/TypeToken.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/enums/Query.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/uiTests/RepresentativesTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/uiTests/StatesTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/uiTests/ZipCodeNegativeTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/RestUtils/BookTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/RestUtils/DonorReferenceServiceClientTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DbUtils/UsePropertiesFile.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/RestUtils/DonorServiceClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/uiTests/ZipCodePositiveTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/dbTests/DbTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/alabamaRepsWithGson.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/createRepsTable.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/StatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodeNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodePositiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mytext.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven-restassured-jdbc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FormatValidationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/RepresentativesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1261">
+          <folding>
+            <element signature="e#0#6705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/ShouldCheckRepeatingCharactersInStates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/isAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/miscellaneous/RestActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/selectReps.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoRep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/LandOnHomePageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#2502#2503#0" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/LandOnDirectoryPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DaoHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/insertReps.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="86" selection-end-line="1" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/insertName.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/FileHelpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.47-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test-java-labs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>oracle</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.6057471" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
