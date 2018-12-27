@@ -1,1 +1,1 @@
-SELECT * from Representatives
+SELECT * from REPRESENTATIVES

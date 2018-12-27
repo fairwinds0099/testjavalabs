@@ -8,14 +8,14 @@ import java.util.List;
 
 public class DaoHelper {
 
-    public static List<String> getAllRecordsForColumn(ServerConfig dbServer, String sqlQuery, String columnName) {
+    public static List<String> getAllRecordsForColumn(ServerConfig dbServer, String sqlQuery, String columnName) throws SQLException {
         String dbUri = String.format("jdbc:oracle:thin:@//%s:%d/%s", dbServer.getHostName(), dbServer.getPort(), dbServer.getDbName());
         List<String> listOfColumns = new ArrayList<String>();
 
         Connection connection = null;
         Statement statement = null;
         ResultSet rs = null;
-        try {
+        //try {
             connection = DriverManager.getConnection(dbUri, dbServer.getUserName(), dbServer.getPassword());
             statement = connection.prepareStatement(sqlQuery);
             rs = statement.executeQuery(sqlQuery);
@@ -24,9 +24,9 @@ public class DaoHelper {
                 listOfColumns.add(rs.getString(columnName));
             }
 
-        } catch (SQLException e) {
+        //} catch (SQLException e) {
             // do nothing
-        }
+        //}
         return listOfColumns;
     }
 
