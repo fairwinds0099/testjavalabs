@@ -1,3 +1,4 @@
+/*
 package utils;
 
 import com.amazonaws.auth.AWSCredentials;
@@ -29,8 +30,9 @@ public class noSqlDao {
     public void createValues() {
 
         Map<String, AttributeValue> repAlabama1 = new HashMap<String, AttributeValue>();
-        repAlabama1.put("name", "Bradley")
+        //repAlabama1.put("name", "Bradley");
 
 
     }
 }
+*/
