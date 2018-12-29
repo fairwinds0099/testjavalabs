@@ -1,2 +1,2 @@
 INSERT INTO REPRESENTATIVES (ROWNUMBER, DISTRICT, NAME, PARTY, OFFICE_ROOM, PHONE, COMMITTEE_ASSIGNMENT)
-VALUES (2, '2nd', 'Roby, Martha', 'R', '442 CHOB', '(222) 225-2901', 'Appropriations')
+VALUES (3, '3rd', 'Rogers, Mike', 'R', '2184 RHOB', '(222) 225-3261', 'Agriculture')

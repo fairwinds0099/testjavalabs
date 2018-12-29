@@ -1,13 +1,16 @@
 package tests.integrationTests.FantasyAliTests;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import domain.Pojos.PojoRep;
 import domain.pages.DirectoryPage;
 import org.junit.Test;
+import org.openqa.selenium.support.PageFactory;
 import tests.uiTests.UITestBase;
 import utils.DaoHelper;
 import utils.FileHelpers;
+import utils.RestUtils.JsonUtils;
 import utils.ServerConfig;
 
 import java.sql.SQLException;
@@ -26,6 +29,8 @@ public class e2eTests extends UITestBase {
             .withPassword("Ebru1980)")
             .build();
     FileHelpers fileHelpers = new FileHelpers();
+    DirectoryPage directoryPage = new PageFactory().initElements(driver, DirectoryPage.class);
+    PojoRep alabamaRep1 = new PojoRep();
     String query = fileHelpers.getFileContent("insertReps.sql");
     String sqlQuery = fileHelpers.getFileContent("selectReps.sql");
     String jsonString;
@@ -35,7 +40,7 @@ public class e2eTests extends UITestBase {
     public void alabamaRepNameShouldBeMappedToObject(){
         homePage.clickRepresentativesLink();
         PojoRep alabamaRep1 = new PojoRep();
-        alabamaRep1.setName(DirectoryPage.getFirstRepNameForAlabama());
+        alabamaRep1.setName(directoryPage.getFirstRepNameForAlabama());
         System.out.println(alabamaRep1.getName());
     }
 
@@ -43,11 +48,14 @@ public class e2eTests extends UITestBase {
     @Test
     public void alabamaRepNameShouldBeMappedAndSerialized() {
         homePage.clickRepresentativesLink();
-        PojoRep alabamaRep1 = new PojoRep();
-        alabamaRep1.setName(DirectoryPage.getFirstRepNameForAlabama());
-        Gson gson = new Gson();
-        String jsonString = gson.toJson("Byrne, Bradley");
-        System.out.println(jsonString);
+        //alabamaRep1 = new PojoRep();
+        alabamaRep1.setName(directoryPage.getFirstRepNameForAlabama());
+        System.out.println(alabamaRep1);
+        System.out.println(alabamaRep1.getName());
+        //Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        //String jsonString = gson.toJson(alabamaRep1);
+
+        System.out.println(JsonUtils.serializeWithGson(alabamaRep1));
     }
 
     //TODO
@@ -55,7 +63,7 @@ public class e2eTests extends UITestBase {
     public void serializedAlabamaRepNameShouldBeDeSerizalized() {
         homePage.clickRepresentativesLink();
         PojoRep alabamaRep1 = new PojoRep();
-        alabamaRep1.setName(DirectoryPage.getFirstRepNameForAlabama());
+        alabamaRep1.setName(directoryPage.getFirstRepNameForAlabama());
         Gson gson = new Gson();
         String jsonString = gson.toJson(alabamaRep1);
         PojoRep alabamaRep1Name = gson.fromJson(jsonString, PojoRep.class);
@@ -67,7 +75,7 @@ public class e2eTests extends UITestBase {
     public void serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb()  throws ClassNotFoundException {
         homePage.clickRepresentativesLink();
         PojoRep alabamaRep1 = new PojoRep();
-        alabamaRep1.setName(DirectoryPage.getFirstRepNameForAlabama());
+        alabamaRep1.setName(directoryPage.getFirstRepNameForAlabama());
         Gson gson = new Gson();
         String jsonString = gson.toJson(alabamaRep1);
         PojoRep alabamaRep1Name = gson.fromJson(jsonString, PojoRep.class);

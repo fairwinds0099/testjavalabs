@@ -64,7 +64,8 @@ public class DirectoryPage extends HomePage {
 
     public boolean isAlabamaTextDisplayed(){ return alabamaText.isDisplayed();}
 
-    public static String getFirstRepNameForAlabama(){
+    //TODO WHY:These method should be non static
+    public String getFirstRepNameForAlabama(){
         return firstAlabamaRep.getText();
     }
 
