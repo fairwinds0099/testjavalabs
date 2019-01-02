@@ -52,10 +52,10 @@ public class RepPageValidationTests {
         homePage.isHomePageZipCodeInputPresent();
         homePage.clickRepresentativesLink();
         System.out.println(representativesPage.isRepresentativesPageStateNameDisplayed());
-        representativesPage.printAlabamaRowOneColOne();
-        representativesPage.printAlabamaRowOneColTwo();
-        representativesPage.printAlabamaRowOneColThree();
-        representativesPage.printAlabamaRowOneColFour();
+        representativesPage.retreiveAlabamaRowOneColOne();
+        representativesPage.retreiveAlabamaRowOneColTwo();
+        representativesPage.retreiveAlabamaRowOneColThree();
+        representativesPage.retreiveAlabamaRowOneColFour();
         driver.close();
     }
 }
