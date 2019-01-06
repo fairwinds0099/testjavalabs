@@ -3,7 +3,11 @@ package tests.integrationTests.FantasyAliTests;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class findFirstNonRepeatedCharacter {
+public class FindFirstNonRepeatedCharacter {
+
+    //TODO Create one interface and two different classes implementing that interface
+    //Strategy Design Pattern e uygula
+    //TODO Create abstract classes after strategy
    public static String isFoundFirstRepeatingChar (String str){
        Map<String, Integer> map = new LinkedHashMap<String, Integer>(str.length());
         String result=" ";

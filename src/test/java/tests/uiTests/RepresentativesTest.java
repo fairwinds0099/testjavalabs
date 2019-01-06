@@ -54,11 +54,11 @@ public class RepresentativesTests extends UITestBase {
         firstAlabamaRep.setParty(directoryPage.getPartysForSelectedState("state-alabama").get(0));
         //firstAlabamaRep.setState("alabama");
         firstAlabamaRep.setOfficeRoom(directoryPage.getRepsOfficeRooms("state-alabama").get(0));
-        Assert.assertEquals("Byrne, Bradley", firstAlabamaRep.getName());
+        Assert.assertEquals("Byrne, Bradley", firstAlabamaRep.GetName());
         Assert.assertEquals("R", firstAlabamaRep.getParty());
-        Assert.assertEquals("1st", firstAlabamaRep.getDistrict());
+        Assert.assertEquals("1st", firstAlabamaRep.GetDistrict());
         //Assert.assertEquals("alabama", firstAlabamaRep.getState());
-        Assert.assertEquals("119 CHOB", firstAlabamaRep.getOfficeRoom());
+        Assert.assertEquals("119 CHOB", firstAlabamaRep.GetOfficeRoom());
         Assert.assertEquals("{\n" +
                 "  \"state\" : \"alabama\",\n" +
                 "  \"name\" : \"Byrne, Bradley\",\n" +

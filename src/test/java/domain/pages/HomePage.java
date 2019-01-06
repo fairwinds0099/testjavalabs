@@ -1,5 +1,6 @@
 package domain.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -42,5 +43,11 @@ public class HomePage {
 
     public boolean isHomePageLogoDisplayed(){
        return homePageLogo.isDisplayed();
+    }
+    //Xpath Parameterization
+    public void clickMyLink(String tabName){
+        String xpath = String.format("//a[@title='%s']", tabName);
+        WebElement myLink = driver.findElement(By.xpath(xpath));
+        myLink.click();
     }
 }

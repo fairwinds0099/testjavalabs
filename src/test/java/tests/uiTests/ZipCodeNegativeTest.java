@@ -33,7 +33,7 @@ public class ZipCodeNegativeTest extends UITestBase {
         });
     }
 
-    //TODO add more data
+    //TODO add more data, bu testin aynisini testng ile yaz dataprovider kullan
     @Test
     public void singleRepSearchWithZipSearchShouldPassForPositiveData() {
         searchResultsPage.enterZipCodeAndSubmit(zipCodeNegative);

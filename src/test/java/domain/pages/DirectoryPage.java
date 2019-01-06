@@ -38,7 +38,7 @@ public class DirectoryPage extends HomePage {
     @FindBy(xpath =  "//h1[contains (text(), 'Directory of Representatives')]")
     private WebElement directoryOfRepresentativesText;
 
-    @FindBy (linkText = "By State and District")
+    @FindBy (xpath = "//*[@id=\"block-mainnavigation\"]/ul/li[1]/a")
     private WebElement listByStateandDistrictButton;
 
     @FindBy (xpath = "//caption[@id='state-alabama']")

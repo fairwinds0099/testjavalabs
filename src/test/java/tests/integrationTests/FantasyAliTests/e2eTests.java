@@ -35,7 +35,6 @@ public class e2eTests extends UITestBase {
     String sqlQuery = fileHelpers.getFileContent("selectReps.sql");
     String jsonString;
 
-    //TODO
     @Test
     public void alabamaRepNameShouldBeMappedToObject(){
         homePage.clickRepresentativesLink();
@@ -44,7 +43,7 @@ public class e2eTests extends UITestBase {
         System.out.println(alabamaRep1.getName());
     }
 
-    //TODO
+
     @Test
     public void alabamaRepNameShouldBeMappedAndSerialized() {
         homePage.clickRepresentativesLink();
@@ -58,7 +57,7 @@ public class e2eTests extends UITestBase {
         System.out.println(JsonUtils.serializeWithGson(alabamaRep1));
     }
 
-    //TODO
+
     @Test
     public void serializedAlabamaRepNameShouldBeDeSerizalized() {
         homePage.clickRepresentativesLink();
@@ -70,7 +69,6 @@ public class e2eTests extends UITestBase {
         System.out.println(alabamaRep1Name.getName());
     }
 
-    //TODO
     @Test
     public void serializedAlabamaRepNameShouldBeDeSerizalizedAndSentoDb()  throws ClassNotFoundException {
         homePage.clickRepresentativesLink();

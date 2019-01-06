@@ -7,20 +7,34 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.junit.Before;
 import org.junit.Test;
+import org.testng.annotations.BeforeTest;
+import tests.RestAssured.file.payLoad;
+import tests.RestAssured.file.resource;
 import utils.RestUtils.JsonUtils;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.post;
 import static org.hamcrest.Matchers.equalTo;
 
 public class GooglePlacesAPI {
+
+    Properties prop = new Properties();
+
+    @Before
+    public void getHost() throws IOException {
+
+        FileInputStream fis = new FileInputStream("/Users/alibaba/Public/testjavalabs/src/main/resources/config.properties");
+        prop.load(fis);
+    }
+
     @Test
     public void restAssuredTestGETWithGoogleAPI(){
         RestAssured.baseURI = "https://maps.googleapis.com/";
@@ -65,7 +79,7 @@ public class GooglePlacesAPI {
                     header("contentType", "application/json").
                     param("postId", "2").
                     when().
-                    get("/posts/5/comments").
+                    get(resource.placeGetDataForList()).
                     then().assertThat().statusCode(200).
                     extract().response();
             String response = res.asString();
@@ -78,20 +92,19 @@ public class GooglePlacesAPI {
 
         }
 
-    @Test
-    public void restAssuredTestGETWithSingleObject(){
-        RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
+    @Test()
+    public void restAssuredTestGETWithSingleObject() throws IOException {
+
+        RestAssured.baseURI = prop.getProperty("HOST");
         Response res = given().
-                header("contentType", "application/json").
+                header(prop.getProperty("HeaderKeyContentType"), prop.getProperty("HeaderValueContentType")).
                 param("postId", "2").
                 param("id", "6").
                 when().
-                get("/comments").
+                get(resource.placeGetData()).
                 then().assertThat().statusCode(200).
                 extract().response();
         String response = res.asString();
-        //System.out.println(response);
-        JsonPath js = new JsonPath(response);
         PojoTest[] pt = JsonUtils.deserializeWithGson(response, PojoTest[].class);
         for(int i=0; i<pt.length; i++) {
             System.out.println(pt[i].getBody());
@@ -100,16 +113,10 @@ public class GooglePlacesAPI {
     }
         @Test
     public void restAssuredTestPOSTWithDifferentAPI(){
-        RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
+        RestAssured.baseURI = prop.getProperty("HOST");
         given().
                 header("contentType", "application/json").
-                body("{" +
-                        "    \"postId\": 2,\n" +
-                        "    \"id\": 6,\n" +
-                        "    \"name\": \"alibaba\",\n" +
-                        "    \"email\": \"kirkharamiler@yilbasi.com\",\n" +
-                        "    \"body\": \"yeni\\yiliniz\\kutlu\\olsun\"\n" +
-                        "  }").
+                body(payLoad.payLoad()).
                 when().
                 put("/posts/2").
                 then().assertThat().statusCode(200);

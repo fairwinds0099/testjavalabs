@@ -2,19 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74853a52-f3ad-4448-9d5f-cb6797f6baa5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RestAssured/GooglePlacesAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/Pojos/PojoJiraSessionID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/domain/States.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RestAssured/JiraAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RestAssured/file/payLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/RestAssured/file/reusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/CommonMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetDistrict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetOfficeRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/StrategyPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/directoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/leadershipPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/UIAbstractBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/testToTestAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/domain/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/domain/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/miscellaneous/RestActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/miscellaneous/RestActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/suites/SmokeTestingSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/suites/SmokeTestingSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RestAssured/GooglePlacesAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RestAssured/GooglePlacesAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/insertReps.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/insertReps.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/selectReps.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selectReps.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/Pojos/PojoRep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/Pojos/PojoRep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/FindFirstNonRepeatedCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/uiTests/RepresentativesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/RepresentativesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodeNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodeNegativeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/domain/pages/DirectoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/pages/DirectoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/domain/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/domain/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/suites/SmokeTestingSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/suites/SmokeTestingSuite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/e2eTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/e2eTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/DaoHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/DaoHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/uiTests/UITestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/uiTests/UITestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-java-labs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-java-labs.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +55,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="e2eTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java">
+      <file leaf-file-name="UITestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-222">
-              <caret line="65" column="71" lean-forward="true" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+            <state relative-caret-position="414">
+              <caret line="47" lean-forward="true" selection-start-line="16" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIAbstractBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/UIAbstractBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1498#1499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testToTestAbstract.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/testToTestAbstract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,34 +90,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeSerializationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/wsTests/DeSerializationTest.java">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerializationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/wsTests/SerializationTest.java">
+      <file leaf-file-name="Strategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Strategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding>
-                <element signature="e#423#431#0" expanded="true" />
-                <element signature="e#493#501#0" expanded="true" />
-                <element signature="e#558#567#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GooglePlacesAPI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssured/GooglePlacesAPI.java">
+      <file leaf-file-name="GetDistrict.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetDistrict.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +120,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerializerAndDeserializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="339">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#953#954#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandOnDirectoryPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/LandOnDirectoryPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,75 +144,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PojoState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoState.java">
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PojoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PojoTestList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTestList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="25" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#140#141#0" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
                 <element signature="e#252#253#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/RestUtils/JsonUtils.java">
+      <file leaf-file-name="StrategyPatternDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/StrategyPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbTestWithBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="64" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,6 +175,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="TestNG Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -181,24 +192,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/domain/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/dbTests/DbTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodePositiveTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java" />
         <option value="$PROJECT_DIR$/src/main/resources/insertName.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/insertReps.sql" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/Pojos/PojoRep.java" />
         <option value="$PROJECT_DIR$/src/main/resources/selectReps.sql" />
         <option value="$PROJECT_DIR$/src/test/java/utils/DaoHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/wsTests/SerializationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTestList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/RestAssured/file/payLoad.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/Pojos/PojoJiraSessionID.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/RestAssured/file/resource.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/RestAssured/file/reusableMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/RestAssured/JiraAPI.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/RestAssured/GooglePlacesAPI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/pages/SimpleHomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/miscellaneous/RestActions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/suites/SmokeTestingSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodeNegativeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/Pojos/PojoRep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/States.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/commonMethods.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/directoryPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/directoryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/leadershipPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/getUniqueID.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/getRepUniqueID.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/getDistrict.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/getName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/getOfficeRoom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/context.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/strategyPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/RepresentativesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Strategy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Context.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetOfficeRoom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetName.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/StrategyPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetDistrict.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/UIAbstractBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/uiTests/testToTestAbstract.java" />
       </list>
     </option>
   </component>
@@ -213,6 +257,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,6 +351,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -344,51 +399,33 @@
             </path>
             <path>
               <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="wsTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testjavalabs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="RestUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test-java-labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="tasks" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests.integrationTests.FantasyAliTests" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="domain.pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.idea/libraries" />
     </key>
@@ -405,24 +442,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GooglePlacesAPI.restAssuredTestGETWithSingleObject">
+  <component name="RunManager" selected="JUnit.testToTestAbstract.openHomePage">
+    <configuration name="StrategyPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.integrationTests.FantasyAliTests.StrategyPatternDemo" />
+      <module name="test-java-labs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.integrationTests.FantasyAliTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="GooglePlacesAPI.restAssuredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LandOnDirectoryPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-java-labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.RestAssured.*" />
+          <option name="PATTERN" value="tests.uiTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests.RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="tests.RestAssured.GooglePlacesAPI" />
-      <option name="METHOD_NAME" value="restAssuredTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tests.uiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.uiTests.LandOnDirectoryPageTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -432,20 +480,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GooglePlacesAPI.restAssuredTestGETWithDifferentAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyPatternDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-java-labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.RestAssured.*" />
+          <option name="PATTERN" value="tests.integrationTests.FantasyAliTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests.RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="tests.RestAssured.GooglePlacesAPI" />
-      <option name="METHOD_NAME" value="restAssuredTestGETWithDifferentAPI" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tests.integrationTests.FantasyAliTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.integrationTests.FantasyAliTests.StrategyPatternDemo" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -455,65 +503,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="GooglePlacesAPI.restAssuredTestGETWithSingleObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyPatternDemo.strategyDesignTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test-java-labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.RestAssured.*" />
+          <option name="PATTERN" value="tests.integrationTests.FantasyAliTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests.RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="tests.RestAssured.GooglePlacesAPI" />
-      <option name="METHOD_NAME" value="restAssuredTestGETWithSingleObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GooglePlacesAPI.restAssuredTestPOST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-java-labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.RestAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests.RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="tests.RestAssured.GooglePlacesAPI" />
-      <option name="METHOD_NAME" value="restAssuredTestPOST" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GooglePlacesAPI.restAssuredTestPOSTWithDifferentAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test-java-labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.RestAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tests.RestAssured" />
-      <option name="MAIN_CLASS_NAME" value="tests.RestAssured.GooglePlacesAPI" />
-      <option name="METHOD_NAME" value="restAssuredTestPOSTWithDifferentAPI" />
+      <option name="PACKAGE_NAME" value="tests.integrationTests.FantasyAliTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.integrationTests.FantasyAliTests.StrategyPatternDemo" />
+      <option name="METHOD_NAME" value="strategyDesignTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -531,6 +533,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testToTestAbstract.openHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-java-labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.uiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.uiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.uiTests.testToTestAbstract" />
+      <option name="METHOD_NAME" value="openHomePage" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -563,19 +588,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTest" />
-      <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestPOST" />
-      <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestPOSTWithDifferentAPI" />
-      <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestGETWithDifferentAPI" />
-      <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestGETWithSingleObject" />
+      <item itemvalue="JUnit.StrategyPatternDemo" />
+      <item itemvalue="JUnit.StrategyPatternDemo.strategyDesignTest" />
+      <item itemvalue="JUnit.LandOnDirectoryPageTest" />
+      <item itemvalue="Application.StrategyPatternDemo" />
+      <item itemvalue="JUnit.testToTestAbstract.openHomePage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestGETWithSingleObject" />
-        <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestGETWithDifferentAPI" />
-        <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestPOSTWithDifferentAPI" />
-        <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTest" />
-        <item itemvalue="JUnit.GooglePlacesAPI.restAssuredTestPOST" />
+        <item itemvalue="JUnit.testToTestAbstract.openHomePage" />
+        <item itemvalue="JUnit.StrategyPatternDemo" />
+        <item itemvalue="JUnit.LandOnDirectoryPageTest" />
+        <item itemvalue="Application.StrategyPatternDemo" />
+        <item itemvalue="JUnit.StrategyPatternDemo.strategyDesignTest" />
       </list>
     </recent_temporary>
   </component>
@@ -611,39 +636,46 @@
       <option name="project" value="LOCAL" />
       <updated>1545880439456</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Revert &quot;Merge remote-tracking branch 'origin/feature' into e2e_tests&quot;&#10;&#10;This reverts commit 25f4174dcdf823b18947f284d9ce78162ec5d093, reversing&#10;changes made to 1f2f26651c269cc9e45d0f61b6acdc5ef83d6228.&#10;&#10;# Conflicts:&#10;#&#9;ReadMe.md">
+      <created>1546109513228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546109513229</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithDifferentAPI - 2018.12.29 at 10h 29m 57s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithDifferentAPI" configurationId="JUnit" />
+    <history-entry file="StrategyPatternDemo - 2019.01.06 at 01h 05m 17s.xml">
+      <configuration name="StrategyPatternDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithDifferentAPI - 2018.12.29 at 10h 30m 35s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithDifferentAPI" configurationId="JUnit" />
+    <history-entry file="StrategyPatternDemo - 2019.01.06 at 01h 09m 17s.xml">
+      <configuration name="StrategyPatternDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithDifferentAPI - 2018.12.29 at 10h 30m 56s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithDifferentAPI" configurationId="JUnit" />
+    <history-entry file="LandOnDirectoryPageTest - 2019.01.06 at 01h 15m 24s.xml">
+      <configuration name="LandOnDirectoryPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithDifferentAPI - 2018.12.29 at 10h 36m 47s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithDifferentAPI" configurationId="JUnit" />
+    <history-entry file="StrategyPatternDemo - 2019.01.06 at 01h 18m 57s.xml">
+      <configuration name="StrategyPatternDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithSingleObject - 2018.12.29 at 10h 40m 16s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithSingleObject" configurationId="JUnit" />
+    <history-entry file="StrategyPatternDemo - 2019.01.06 at 01h 34m 44s.xml">
+      <configuration name="StrategyPatternDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithSingleObject - 2018.12.29 at 10h 40m 58s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithSingleObject" configurationId="JUnit" />
+    <history-entry file="StrategyPatternDemo - 2019.01.06 at 01h 35m 25s.xml">
+      <configuration name="StrategyPatternDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithSingleObject - 2018.12.29 at 10h 42m 41s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithSingleObject" configurationId="JUnit" />
+    <history-entry file="StrategyPatternDemo - 2019.01.06 at 01h 37m 28s.xml">
+      <configuration name="StrategyPatternDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithSingleObject - 2018.12.29 at 10h 44m 52s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithSingleObject" configurationId="JUnit" />
+    <history-entry file="StrategyPatternDemo - 2019.01.06 at 07h 47m 40s.xml">
+      <configuration name="StrategyPatternDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithSingleObject - 2018.12.29 at 10h 45m 11s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithSingleObject" configurationId="JUnit" />
+    <history-entry file="testToTestAbstract_openHomePage - 2019.01.06 at 09h 08m 32s.xml">
+      <configuration name="testToTestAbstract.openHomePage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GooglePlacesAPI_restAssuredTestGETWithSingleObject - 2018.12.29 at 10h 45m 25s.xml">
-      <configuration name="GooglePlacesAPI.restAssuredTestGETWithSingleObject" configurationId="JUnit" />
+    <history-entry file="testToTestAbstract_openHomePage - 2019.01.06 at 09h 09m 16s.xml">
+      <configuration name="testToTestAbstract.openHomePage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -656,40 +688,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="954" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="956" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info id="Project Explorer" />
-      <window_info id="Job Explorer" />
-      <window_info anchor="bottom" id="Console" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Job Explorer" order="2" />
+      <window_info anchor="bottom" id="Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3317647" />
-      <window_info id="DB Browser" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32905483" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.330617" />
+      <window_info id="DB Browser" order="2" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3282887" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905483" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42840514" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32982457" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2716728" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905483" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3282887" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -706,237 +738,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DbUtils/UsePropertiesFile.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/RestUtils/DonorServiceClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/uiTests/ZipCodePositiveTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/dbTests/DbTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/alabamaRepsWithGson.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/StatesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mytext.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven-restassured-jdbc.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="72" column="39" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FormatValidationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/RepresentativesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1261">
-          <folding>
-            <element signature="e#0#6705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/ShouldCheckRepeatingCharactersInStates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/isAnagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/LandOnHomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/findFirstNonRepeatedCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/LandOnDirectoryPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/FileHelpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodePositiveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodeNegativeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/miscellaneous/TypeToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/miscellaneous/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/miscellaneous/FluTrackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/miscellaneous/RestActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="18" selection-start-line="18" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="432" selection-start-line="432" selection-end-line="432" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/insertReps.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/insertName.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/DaoHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/selectReps.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/createRepsTable.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="357" selection-start-line="357" selection-end-line="357" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -944,10 +745,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTestList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssured/file/reusableMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/RestUtils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.1/rest-assured-3.1.1.jar!/io/restassured/internal/ResponseSpecificationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.1/rest-assured-3.1.1.jar!/io/restassured/internal/ValidatableResponseOptionsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssured/file/payLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoJiraSessionID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssured/JiraAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssured/file/resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodePositiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/miscellaneous/RestActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssured/GooglePlacesAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/PartyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/wsTests/DeSerializationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/wsTests/SerializationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoRep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1427#1428#0" expanded="true" />
@@ -996,115 +954,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoState.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/States.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="300">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTestList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/suites/SmokeTestingSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/directoryPageTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/leadershipPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/StatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/FindFirstNonRepeatedCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/CommonMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/directoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/LeadershipPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/SimpleHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetOfficeRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/DirectoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2367#2368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/RepresentativesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="56" column="62" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#6705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/ZipCodeNegativeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/domain/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#953#954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
             <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/domain/Pojos/PojoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/GetDistrict.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/e2eTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="65" column="71" lean-forward="true" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/wsTests/SerializationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/LandOnDirectoryPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#423#431#0" expanded="true" />
-            <element signature="e#493#501#0" expanded="true" />
-            <element signature="e#558#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/SerializerAndDeserializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/dbTests/DbTestWithBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/Strategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="64" />
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/integrationTests/FantasyAliTests/StrategyPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/RestUtils/JsonUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/UITestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="67" />
+        <state relative-caret-position="414">
+          <caret line="47" lean-forward="true" selection-start-line="16" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/wsTests/DeSerializationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/RestAssured/GooglePlacesAPI.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/UIAbstractBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        <state relative-caret-position="61">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/uiTests/testToTestAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
