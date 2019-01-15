@@ -8,7 +8,7 @@ import tests.wsTests.SerializationTest;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({ SerializationTest.class, LandOnHomePageTest.class})
-//TODO bunun testng versiyonunu ogren, testng xml den olan yontem
+//TODO --bunun testng versiyonunu ogren, testng xml den olan yontem
 //
 public class SmokeTestingSuite {
 

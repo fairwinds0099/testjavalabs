@@ -21,5 +21,5 @@ package domain;
         return this.state;
         }
     }
-//TODO bunu yap boyle
-//TODO enum StateCode olsun, sadece kisaltmalari yaz. StateCode.AL yazacaksin teste ama senin kodun Alabama kelimesini cekecek. Kendime prblem alani ariyordum birtane, he tamam.
+//TODO bunu yap boyle--
+//TODO --enum StateCode olsun, sadece kisaltmalari yaz. StateCode.AL yazacaksin teste ama senin kodun Alabama kelimesini cekecek. Kendime prblem alani ariyordum birtane, he tamam.

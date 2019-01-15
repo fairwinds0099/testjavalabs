@@ -8,7 +8,7 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 
 @RunWith(Parameterized.class)
-public class ZipCodeNegativeTest extends UITestBase {
+public class ZipCodeNegativeTestWithDataProvider extends UITestBase {
 
     /**
      * Call for enterZipCode method from Homepage.
@@ -33,8 +33,7 @@ public class ZipCodeNegativeTest extends UITestBase {
         });
     }
 
-    //TODO add more data, bu testin aynisini testng ile yaz dataprovider kullan, TestNG package i yap, icinde hem testng xml olsun hem de data provider olsun hem logging.Logger.info
-    //TODO Sl4j nedir? Listeners (ayni paketin icine koy)
+    //TODO add more data, bu testin aynisini testng ile yaz dataprovider kullan
     @Test
     public void singleRepSearchWithZipSearchShouldPassForPositiveData() {
         searchResultsPage.enterZipCodeAndSubmit(zipCodeNegative);

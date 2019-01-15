@@ -1,33 +1,30 @@
-package tests.uiTests;
+package tests.TestNG;
 
 import domain.pages.DirectoryPage;
 import domain.pages.HomePage;
 import domain.pages.SearchResultsPage;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class UITestBase {
-    //TODO create a selenium ui test without using page object factory and using static block(methods: load url, load driver.
-
-    public String name;
+public class ZipCodeTestWithXML {
     public WebDriver driver;
     public HomePage homePage;
     public DirectoryPage directoryPage;
     public SearchResultsPage searchResultsPage;
 
-    @Before
+    @BeforeClass
     public void SystemSetUp() {
-        name = new String("aLi");
+
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless","--disable-gpu");
+        options.addArguments("--headless", "--disable-gpu");
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
@@ -35,13 +32,13 @@ public class UITestBase {
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);
         homePage = new PageFactory().initElements(driver, HomePage.class);
         directoryPage = new PageFactory().initElements(driver, DirectoryPage.class);
-        searchResultsPage =new PageFactory().initElements(driver, SearchResultsPage.class);
-        //homepage = new HomePage();
+        searchResultsPage = new PageFactory().initElements(driver, SearchResultsPage.class);
     }
 
-    @After
-    public void driverQuit() {
-        driver.close();
-        driver.quit();
+    @Test
+    @Parameters({"zipCodePositive"})
+    public void singleRepSearchWithZipSearchShouldPassForPositiveData(String zipCodePositive) {
+        searchResultsPage.enterZipCodeAndSubmit(zipCodePositive);
+        Assert.assertTrue(searchResultsPage.isRepImagePresent());
     }
 }

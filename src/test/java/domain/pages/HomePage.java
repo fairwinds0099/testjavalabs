@@ -44,10 +44,4 @@ public class HomePage {
     public boolean isHomePageLogoDisplayed(){
        return homePageLogo.isDisplayed();
     }
-    //Xpath Parameterization
-    public void clickMyLink(String tabName){
-        String xpath = String.format("//a[@title='%s']", tabName);
-        WebElement myLink = driver.findElement(By.xpath(xpath));
-        myLink.click();
-    }
 }
