@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <parameter name="hostName" value=""/>
+
+  <test thread-count="5" name="Smoke">
+    <classes>
+      <class name="tests.TestNGTests">
+        <methods>
+          <include name="REPtest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+
+  <test name="Regression">
+    <classes>
+      <class name="Deserizalizatest"/>
+      <class name="Serialization">
+        <methods>
+          <exclude name="donorunmethod"/>
+        </methods>
+      </class>
+
+    </classes>
+  </test>
+
+</suite>

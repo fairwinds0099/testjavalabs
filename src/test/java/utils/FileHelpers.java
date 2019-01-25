@@ -5,6 +5,7 @@ import org.apache.commons.io.IOUtils;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.nio.file.Files;
 
 public class FileHelpers {
 
@@ -28,6 +29,5 @@ public class FileHelpers {
         System.out.println(queryList);
         return queryList;
     }
-
 
 }

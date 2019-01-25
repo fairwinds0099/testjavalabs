@@ -1,5 +1,6 @@
 package tests.ChallengeTests;
 
+import com.amazonaws.annotation.SdkTestInternalApi;
 import domain.pages.DirectoryPage;
 import domain.pages.HomePage;
 import org.junit.Test;
@@ -41,4 +42,5 @@ public class ShouldCheckRepeatingCharactersInStates extends UITestBase {
         }
         System.out.println(Collections.singletonList(repeatingChars));
     }
+
 }

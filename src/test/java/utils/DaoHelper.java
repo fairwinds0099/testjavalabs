@@ -53,6 +53,8 @@ public class DaoHelper {
 
     //the follwing command should un first. make sure ojdbc8 is in m2 and add dependency to pom.xml
     //mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar -Dfile=/Users/gx/Desktop/ExperimentsSw/ojdbc8.jar -DgeneratePom=true
+    // another way to introduce connector is to use Class.forName("com.mysql.jdbc.Driver") which loads the driver to JVM
+
 }
 
 

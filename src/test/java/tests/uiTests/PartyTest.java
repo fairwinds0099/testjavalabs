@@ -13,7 +13,8 @@ public class PartyTest extends UITestBase {
      */
     @Test
     public void partyOfRepShouldDemonstrated(){
-        homePage.clickRepresentativesLink();
+       homePage.clickRepresentativesLink();
+       //mlkmlg
         directoryPage.clickListByStateAndDistrictLink();
         Assert.assertEquals("D", directoryPage.getPartyByRepresentative("Grijalva"));
     }
