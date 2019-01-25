@@ -4,10 +4,8 @@ import java.util.List;
 
 public class PojoState {
 
-
-    
     private String state;
-
+    private List<PojoRep> reps;
 
     public String getState() {
         return state;
