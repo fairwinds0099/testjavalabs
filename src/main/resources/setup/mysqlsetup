@@ -1,0 +1,108 @@
+GXs-MacBook-Air:bin gx$ brew install mysql
+Updating Homebrew...
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+==> Auto-updated Homebrew!
+Updated 4 taps (homebrew/cask-versions, homebrew/core, homebrew/cask and homebrew/services).
+==> New Formulae
+ahoy                  bluetoothconnector    dmg2img               entityx               gerbil-scheme         grpcurl               opencv@3              osx-cpu-temp          tmx
+==> Updated Formulae
+jenkins ✔           bower               diff-so-fancy       geoipupdate         hub                 librsvg             mpd                 ponyc               siril               userspace-rcu
+node ✔              buku                doctl               ghostscript         i2pd                libuv               mplayer             prettier            sleuthkit           vala
+zeromq ✔            caddy               dosbox-x            git-flow-avh        iamy                libvterm            mps-youtube         prometheus          spdlog              vault
+ace                 cargo-completion    embulk              git-fresh           imagemagick         libxc               mpv                 pulumi              sphinx              vim
+akamai              carla               erlang@20           git-quick-stats     iso-codes           libxml2             node-build          puzzles             sphinx-doc          vips
+ammonite-repl       checkbashisms       eslint              gitlab-runner       jenkins-lts         lmod                nuxeo               quex                swagger-codegen     vtk
+annie               chronograf          ethereum            glib                jenv                lsd                 open-babel          quicktype           swagger-codegen@2   webp
+ansible             clamav              fauna-shell         gmsh                jfrog-cli-go        mas                 p11-kit             rdfind              swiftformat         wireguard-tools
+asdf                closure-compiler    ffmpeg              gnome-recipes       jhipster            maxwell             parallel            root                swiftlint           wtf
+audacious           cockroach           ffmpeg@2.8          go                  juju                mesa                pcl                 rust                telegraf            x265
+awscli              coreutils           fluid-synth         godep               kettle              minimal-racket      pdal                safe                tile38              yamllint
+basex               cp2k                fonttools           golang-migrate      kubernetes-helm     minio               percona-server      scrcpy              tippecanoe          yara
+bash                ctop                frugal              graph-tool          lean                modd                percona-toolkit     scummvm             topgrade            ykman
+bettercap           curl-openssl        gauge               gssdp               libbi               monetdb             phpmyadmin          shfmt               typescript          youtube-dl
+binaryen            cython              geant4              gtk+3               libgpg-error        mongodb             pipenv              ship                ucloud              zabbix
+blueutil            dartsim             gearman             haproxy             libheif             mongodb@3.6         platformio          sile                urbit               zsh
+==> Deleted Formulae
+apache-arrow                      apache-arrow-glib                 cputhrottle                       liblastfm                         percona-server@5.6                ruby@1.8
+
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+==> Installing dependencies for mysql: openssl
+==> Installing mysql dependency: openssl
+==> Downloading https://homebrew.bintray.com/bottles/openssl-1.0.2q.mojave.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring openssl-1.0.2q.mojave.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+openssl is keg-only, which means it was not symlinked into /usr/local,
+because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.
+
+If you need to have openssl first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find openssl you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl/1.0.2q: 1,794 files, 12.1MB
+==> Installing mysql
+==> Downloading https://homebrew.bintray.com/bottles/mysql-8.0.13.mojave.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring mysql-8.0.13.mojave.bottle.tar.gz
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+==> /usr/local/Cellar/mysql/8.0.13/bin/mysqld --initialize-insecure --user=gx --basedir=/usr/local/Cellar/mysql/8.0.13 --datadir=/usr/local/var/mysql --tmpdir=/tmp
+==> Caveats
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+==> Summary
+🍺  /usr/local/Cellar/mysql/8.0.13: 267 files, 236.6MB
+==> Caveats
+==> openssl
+A CA file has been bootstrapped using certificates from the SystemRoots
+keychain. To add additional certificates (e.g. the certificates added in
+the System keychain), place .pem files in
+  /usr/local/etc/openssl/certs
+
+and run
+  /usr/local/opt/openssl/bin/c_rehash
+
+openssl is keg-only, which means it was not symlinked into /usr/local,
+because Apple has deprecated use of OpenSSL in favor of its own TLS and crypto libraries.
+
+If you need to have openssl first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find openssl you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl/include"
+
+==> mysql
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start

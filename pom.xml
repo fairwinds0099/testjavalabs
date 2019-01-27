@@ -176,7 +176,7 @@
         </profile>
     </profiles>
 
-    <distributionManagement>
+    <!--distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
             <url>https://mymavenrepo.com/repo/g9MGh07Z2uBnNijIS5rX/</url>
@@ -185,8 +185,19 @@
             <id>myMavenRepo.write</id>
             <url>https://mymavenrepo.com/repo/g9MGh07Z2uBnNijIS5rX/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement-->
 
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://console.cloud.google.com/storage/browser/artifactory-java-labs</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo.write</id>
+            <url>https://console.cloud.google.com/storage/browser/artifactory-java-labs</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 </project>
