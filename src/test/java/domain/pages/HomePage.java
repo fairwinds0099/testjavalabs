@@ -27,6 +27,9 @@ public class HomePage {
     @FindBy(xpath = "//form[contains(text(), 'Enter a zip code:')]")
     private WebElement invalidZipCodeText;
 
+    @FindBy(xpath = "//*[@id=\"header-site-search\"]/label")
+    private WebElement searchBox;
+
     public HomePage (WebDriver driver) {
         this.driver = driver;
     }
@@ -44,4 +47,7 @@ public class HomePage {
     public boolean isHomePageLogoDisplayed(){
        return homePageLogo.isDisplayed();
     }
+
+    public boolean isSearchBoxDisplayed(){return searchBox.isDisplayed();}
+
 }

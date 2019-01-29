@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -37,7 +38,7 @@ public class ZipCodeTestWithXML {
 
     @Test
     @Parameters({"zipCodePositive"})
-    public void singleRepSearchWithZipSearchShouldPassForPositiveData(String zipCodePositive) {
+    public void singleRepSearchWithZipSearchShouldPassForPositiveData(@Optional("92620") String zipCodePositive) {
         searchResultsPage.enterZipCodeAndSubmit(zipCodePositive);
         Assert.assertTrue(searchResultsPage.isRepImagePresent());
     }

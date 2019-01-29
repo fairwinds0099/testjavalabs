@@ -1,10 +1,12 @@
 package tests.uiTests;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,6 +15,7 @@ public class testToTestAbstract extends UIAbstractBase {
 
 
     @Override
+    //@BeforeTest
     public void SystemSetUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless","--disable-gpu");

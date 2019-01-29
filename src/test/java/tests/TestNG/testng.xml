@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZipCodeTests">
+    <listeners>
+        <listener class-name="tests.TestNG.ListenerTest"/>
+    </listeners>
+    <!-- Bu kisim ZipCodeTestWithXML testinde @Optional uygulamasini denemek icin bu sekilde yapildi -->
+    <!-- suite level ve test level ayri olarak verildiginde oncelikle test level dakine bakiyor kod  -->
+    <parameter name="zipCodeNegative" value="12345"/>
+  <test name="zipCode">
+    <parameter name="zipCodeNegative" value="92656"/>
+    <classes>
+        <class name="tests.TestNG.ZipCodeTestWithXML"/>
+        <class name="tests.TestNG.ZipCodeNegativeTestTestNG"/>
+    </classes>
+      <!--groups>
+          <run>
+              <exclude name="smoke"/>
+          </run>
+      </groups>
+      <packages>
+          <package name="tests.TestNG"/>
+      </packages>-->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

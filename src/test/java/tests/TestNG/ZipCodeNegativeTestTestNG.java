@@ -12,15 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-import tests.uiTests.UITestBase;
+import org.testng.annotations.*;
 
-
-import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
+
+@Listeners(tests.TestNG.ListenerTest.class)
 
 public class ZipCodeNegativeTestTestNG {
 
@@ -55,7 +51,7 @@ public class ZipCodeNegativeTestTestNG {
 
     @DataProvider(name = "ZipCodeNegative")
     public static Object[][] negativeZipCodes() {
-        return new Object[][] { {"23455"}, {"1234"}};
+        return new Object[][] { {"3455"}, {"1234"}};
     }
 
 
@@ -67,7 +63,7 @@ public class ZipCodeNegativeTestTestNG {
             Assert.assertTrue(searchResultsPage.isRepImagePresent());
         }
 
-    @Test(dataProvider = "ZipCodeNegative")
+    @Test(dataProvider = "ZipCodeNegative", groups = {"smoke"})
     public void singleRepSearchWithZipSearchShouldPassForNegativeData(String zipCodeNegative) {
         searchResultsPage.enterZipCodeAndSubmit(zipCodeNegative);
         Assert.assertFalse(searchResultsPage.isRepImagePresent());
