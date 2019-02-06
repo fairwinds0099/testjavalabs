@@ -3,6 +3,8 @@ package tests.uiTests;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Properties;
+
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 
@@ -22,5 +24,11 @@ public class StatesTest extends UITestBase {
         homePage.clickRepresentativesLink();
         directoryPage.clickListByStateAndDistrictLink();
         Assert.assertEquals (directoryPage.getSortedStates().toString(), allStates);
+    }
+
+    @Test
+    public void systemTest (){
+        Properties p = System.getProperties();
+        p.list(System.out);
     }
 }

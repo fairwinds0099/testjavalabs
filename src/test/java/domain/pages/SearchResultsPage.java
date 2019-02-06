@@ -3,6 +3,10 @@ package domain.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class SearchResultsPage extends HomePage {
 
@@ -19,6 +23,12 @@ public class SearchResultsPage extends HomePage {
     @FindBy(xpath = "//input[@value='FIND YOUR REP BY ADDRESS']")
     private WebElement findYourRepByAddressButton;
 
+    @FindBys ({
+            @FindBy(xpath = "//*[@id=\"PossibleReps\"]/div/p/a")
+    })
+    private List<WebElement> yourRepresentatives;
+
+
     public SearchResultsPage(WebDriver driver) {
         super(driver);
         // this.driver = driver;
@@ -34,6 +44,14 @@ public class SearchResultsPage extends HomePage {
         } catch (Exception e) {
             return false;
         }
+    }
+
+    public List<String> searchRepResults(){
+        List<String> yourReps = new ArrayList<>();
+        for(WebElement yr: yourRepresentatives){
+            yourReps.add(yr.getText());
+        }
+        return yourReps;
     }
 
 }

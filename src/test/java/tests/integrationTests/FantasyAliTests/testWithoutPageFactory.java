@@ -8,15 +8,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
 public class testWithoutPageFactory {
-    WebDriver chromeDriver;
-    HomePageWithoutPageFactory homePageWithoutPageFactory;
 
+    WebDriver chromeDriver;
+    @Before
+    public void setUp() {
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        WebDriver chromeDriver = new ChromeDriver();
+    }
 
     @Test
     public void isRepresentativesLinkDisplayed() {
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
-        chromeDriver = new ChromeDriver();
-        homePageWithoutPageFactory = new HomePageWithoutPageFactory(chromeDriver);
+
+        //chromeDriver = new ChromeDriver();
+        //homePageWithoutPageFactory = new HomePageWithoutPageFactory(chromeDriver);
+        HomePageWithoutPageFactory homePageWithoutPageFactory = new HomePageWithoutPageFactory(chromeDriver);
         homePageWithoutPageFactory.isRepresentativesLinkDisplayed();
     }
 

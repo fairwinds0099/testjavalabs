@@ -2,18 +2,21 @@ package tests.integrationTests.FantasyAliTests;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.WebDriver;
 import tests.uiTests.UITestBase;
 
-public class StrategyPatternDemo {
+public class StrategyPatternDemo extends UITestBase{
+    Strategy nameStrategy;
     @Test
     public void strategyDesignTest () {
-            Context context = new Context(new GetDistrict());
+        Context context = new Context(new GetDistrict());
             System.out.println(context.executeStrategy());
         }
   //TODO Static vs Dynamic Polymorphism
         @Test
     public void goToGox(){
         Strategy nameStrategy = new GetName();
+        System.out.println(nameStrategy.getRepUniqueID());
             //Assert.assertTrue("expectedResult", nameStrategy.getRepUniqueID());
         }
 

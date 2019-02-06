@@ -31,6 +31,7 @@ public class DirectoryPage extends HomePage {
     private String rowsXpath = "//caption[@id='state-alabama']/../tbody/tr";
     private String rowXpathForFirstState = "(//table[@class='table'])[1]/tbody/tr";
     private String repRowXpath = "//caption[@id='state-alabama']/../tbody/tr";
+    private String yourRepXpath = "//caption[@id='%s']/..//tr[%d]/td[2]";
 
     @FindBy(xpath = "//*[@id='state-alabama']/..//td[2]")
     private static WebElement firstAlabamaRep;
@@ -49,6 +50,10 @@ public class DirectoryPage extends HomePage {
 
     @FindBys({@FindBy (xpath = "//caption[starts-with(@id,'state')]")})
     private List<WebElement> allStates;
+
+    @FindBys({@FindBy (xpath = "//*[@id=\"by-state\"]/div/div/div[2]/table/tbody/tr/td[2]/a")})
+    private List<WebElement> allReps;
+
 
     public DirectoryPage (WebDriver driver){
         super(driver);
@@ -170,5 +175,10 @@ public class DirectoryPage extends HomePage {
             allStatesList.add(allState.getText());
         }
         return allStatesList;
+    }
+
+    public String getYourRep(String state, int district){
+        String yrXpath = String.format(yourRepXpath, state, district);
+        return driver.findElement(By.xpath(yrXpath)).getText();
     }
 }
