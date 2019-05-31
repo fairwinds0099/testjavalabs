@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.GeckoDriverService;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.concurrent.TimeUnit;
@@ -22,9 +23,10 @@ public class UITestBase {
     @Before
     public void SystemSetUp() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless","--disable-gpu");
+ //       options.addArguments("--headless","--disable-gpu");
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
+//        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("https://www.house.gov");
         driver.manage().timeouts().implicitlyWait(3000, TimeUnit.MILLISECONDS);

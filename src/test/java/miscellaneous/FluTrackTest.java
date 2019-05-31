@@ -1,4 +1,5 @@
 /*
+
 package restUtils;
 
 import com.jayway.restassured.builder.RequestSpecBuilder;
@@ -10,7 +11,10 @@ import com.jayway.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.Collections;
+
 import static com.jayway.restassured.RestAssured.given;
+import static io.restassured.RestAssured.given;
 
 public class FluTrackTest {
 
@@ -38,6 +42,12 @@ public void useSpec() {
 	.jsonPath();
 	
 	System.out.println(response.getList("user_name").get(0));
+    Collections.sort();
+
+
 }
 }
+
+
+
 */
