@@ -1,0 +1,44 @@
+mvn -B -f testjavalabs/pom.xml install
+
+
+
+#!/bin/sh
+cd /Jenkins/workspace/#JOB_NAME/testjavalabs/target
+unzip -o test-java-labs-4.0.0.zip
+exit 0
+
+#!/bin/sh
+cd /Jenkins/workspace/$JOB_NAME/testjavalabs/target
+java -jar test-java-labs-4.0.0.jar suites/testng.xml
+exit 0
+
+#!/bin/sh
+cd /Jenkins/workspace/$JOB_NAME/testjavalabs/target
+zip -r $JOB_NAME-test-output.zip test-output
+
+GROOVY CODE
+manager.addShortText("bla bla")
+
+STR = manager.getEnvVariable('JOB_NAME')
+
+java -jar target/test-java-labs-4.0.0.jar suites/testng.xml
+
+java -cp target/test-java-labs-4.0.0.jar suites/testng.xml
+
+) Set the classpath for the testng.jar in the environment variables
+(either manually or via command line).
+
+2) Create a new folder "MyTest".
+
+3) Compile all your classes(testNG+java) and put them(.class files )
+in a new folder "Mytest\bin".
+
+4) Put your 'testng.xml' and '.properties' files to "Mytest\bin"
+again.
+
+5) Put all the .jar files (testng,selenium... etc) in a new folder
+"Mytest\lib".
+
+6) Browse to the folder "bin" via command line and run the command
+java -cp "..\lib\*;" org.testng.TestNG testng.xml
+

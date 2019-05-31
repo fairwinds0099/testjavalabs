@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testjavalabs" verbose="1">
+    <test name="myfirstTestNgtrials">
+        <classes>
+            <class name="tests.uiTests.FormatValidationTest"/>
+            <class name="tests.uiTests.LandOnDirectoryPageTest"/>
+            <class name="tests.uiTests.ZipCodePositiveTest">
+                <methods>
+                    <include name="multipleRepSearchWithZipSearchShouldPass()"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="myseconfTestNgtrials">
+        <classes>
+            <class name="tests.uiTests.FormatValidationTest"/>
+        </classes>
+    </test>
+
+</suite>
+
