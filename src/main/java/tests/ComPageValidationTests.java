@@ -1,3 +1,4 @@
+/*
 package tests;
 
 import domain.pages.CommitteesPage;
@@ -25,3 +26,4 @@ public class ComPageValidationTests {
 
     }
 }
+*/

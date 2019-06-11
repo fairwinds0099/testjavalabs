@@ -1,3 +1,4 @@
+/*
 package tests;
 
 import domain.pages.HomePage;
@@ -25,3 +26,4 @@ public class RepPageValidationTests {
         }
     }
 
+*/
