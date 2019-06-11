@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import org.junit.Test;
 
 import java.lang.reflect.Type;
 
@@ -31,6 +32,17 @@ public class JsonUtils {
         Gson gson = new Gson();
         return gson.fromJson(retrievedJson, pojoClass);
     }
+
+
+    /*
+    Implementation of GSON DESERERIALIZATION with array type of String input
+     */
+    @Test
+    public void deserArrayWithGson() {
+  //      DomainPOJO[] enums = serializeWithGson(jSonString, DomainPOJO[].class);
+    }
+
+
 }
 
 // TODO ObjectMapper.readVAlue
