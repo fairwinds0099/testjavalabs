@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage ('Initialize') {
             steps {
-                sh
+
                     echo 'This is Initialize'
 
             }
