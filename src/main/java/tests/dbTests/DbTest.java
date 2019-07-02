@@ -1,16 +1,6 @@
 package tests.dbTests;
 
 
-import org.junit.BeforeClass;
-import org.junit.Test;
-import utils.Dao;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.sql.SQLException;
-import java.util.List;
-import java.util.Properties;
-
 /*public class DbTest {
     String queryRead;
     Properties prop = new Properties().load(new FileInputStream("config.properties"));

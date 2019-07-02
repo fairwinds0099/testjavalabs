@@ -3,9 +3,9 @@
 <suite name="testjavalabs" verbose="1">
     <test name="myfirstTestNgtrials">
         <classes>
-            <class name="tests.uiTests.FormatValidationTest"/>
-            <class name="tests.uiTests.LandOnDirectoryPageTest"/>
-            <class name="tests.uiTests.ZipCodePositiveTest">
+            <class name="FormatValidationTest"/>
+            <class name="LandOnDirectoryPageTest"/>
+            <class name="ZipCodePositiveTest">
                 <methods>
                     <include name="multipleRepSearchWithZipSearchShouldPass()"/>
                 </methods>
@@ -16,7 +16,7 @@
 
     <test name="myseconfTestNgtrials">
         <classes>
-            <class name="tests.uiTests.FormatValidationTest"/>
+            <class name="FormatValidationTest"/>
         </classes>
     </test>
 

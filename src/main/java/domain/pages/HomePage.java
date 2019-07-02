@@ -6,33 +6,41 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePage {
 
-        WebDriver driver;
+    WebDriver driver;
 
-        @FindBy (xpath = "//input[@id='header-find-rep-zip-code']")
-        private static WebElement homePageZipCodeInput;
+    Boolean result;
+    String regex = "^[0-9]{5}(?:-[0-9]{4})?$";
 
-        @FindBy (css = "#block-mainnavigation > ul > li:nth-child(1) > a")
-        //*[@id="block-mainnavigation"]/ul/li[1]/a
-        private static WebElement representativesLink;
+    @FindBy (xpath = "//a[@title='Home']")
+    private WebElement homePageLogo;
 
-        @FindBy (css = "#block-mainnavigation > ul > li:nth-child(3) > a")
-        private static WebElement committeesLink;
+    @FindBy(xpath = "(//a[@href = '/representatives'])[1]")
+    private WebElement representativesLink;
 
-        public HomePage(WebDriver driver) {
-            this.driver = driver;
-        }
+    @FindBy(xpath = "//button[@value='Look up'][1]")
+    private WebElement lookUpZipCodeButton;
 
-        public static boolean isHomePageZipCodeInputPresent(){
-            return homePageZipCodeInput.isDisplayed();
-        }
+    @FindBy(xpath = "//input[@id='header-find-rep-zip-code']")
+    private WebElement inputZipCode;
 
-        public static void clickRepresentativesLink(){
-            representativesLink.click();
-        }
+    @FindBy(xpath = "//form[contains(text(), 'Enter a zip code:')]")
+    private WebElement invalidZipCodeText;
 
-        public static void clickCommitteesLink(){
-            committeesLink.click();
-
-    }
+    public HomePage (WebDriver driver) {
+        this.driver = driver;
     }
 
+    public void clickRepresentativesLink() {
+        representativesLink.click();
+    }
+
+    public void enterZipCodeAndSubmit(String zipCode) {
+        inputZipCode.clear();
+        inputZipCode.sendKeys(zipCode);
+        lookUpZipCodeButton.click();
+    }
+
+    public boolean isHomePageLogoDisplayed(){
+       return homePageLogo.isDisplayed();
+    }
+}

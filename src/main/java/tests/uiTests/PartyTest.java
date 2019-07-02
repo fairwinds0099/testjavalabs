@@ -1,6 +1,5 @@
 package tests.uiTests;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -16,6 +15,6 @@ public class PartyTest extends UITestBase {
        homePage.clickRepresentativesLink();
        //mlkmlg
         directoryPage.clickListByStateAndDistrictLink();
-        Assert.assertEquals("D", directoryPage.getPartyByRepresentative("Grijalva"));
+        assertEquals("D", directoryPage.getPartyByRepresentative("Grijalva"));
     }
 }

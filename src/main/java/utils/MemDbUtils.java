@@ -4,7 +4,6 @@ package utils;
 the columns and data types for columns hould be re-arranged for the create column
  */
 
-import org.h2.message.DbException;
 
 import java.sql.*;
 import java.util.List;
@@ -28,7 +27,7 @@ public class MemDbUtils {
 
             statement.close();
             connection.close();
-        } catch (ClassNotFoundException | SQLException | DbException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
     }
@@ -57,7 +56,7 @@ public class MemDbUtils {
             }
             preparedStatement.close();
             connection.close();
-        } catch (ClassNotFoundException | SQLException | DbException e) {
+        } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
         }
     }

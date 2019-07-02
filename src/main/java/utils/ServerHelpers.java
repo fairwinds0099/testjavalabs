@@ -3,8 +3,6 @@ package utils;
 
 import com.jcraft.jsch.*;
 
-import java.io.InputStream;
-
 public class ServerHelpers {
 
     public static void executeCommand(String command, ServerConfig serverConfig) {
