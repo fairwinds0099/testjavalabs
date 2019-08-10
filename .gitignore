@@ -16,7 +16,3 @@ buildNumber.properties
 /src/main.iml
 /maven-restassured-jdbc.iml
 /.project
-.gitignore
-.idea/codeStyles/
-.idea/dbnavigator.xml
-.idea/workspace.xml
