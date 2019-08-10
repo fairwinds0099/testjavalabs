@@ -76,3 +76,10 @@ src/.DS_Store
 src/main/.DS_Store
 target/
 /.idea/
+/.idea/compiler.xml
+/.idea/dbnavigator.xml
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/codeStyles/
