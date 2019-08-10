@@ -1,33 +1,22 @@
-###COMMON###
-default.xml
-
-###IDEA###
-out/
-.idea/
-*.iml
-modules.xml
-*.ipr
-unknown
-
-###JAVA###
-*.class
-
-###MAVEN###
+# Created by .ignore support plugin (hsz.mobi)
+### Maven template
 target/
 pom.xml.tag
 pom.xml.releaseBackup
-pom.xml.versionBackup
+pom.xml.versionsBackup
 pom.xml.next
 release.properties
 dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-###Package Files###
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-
-
+/.idea/
+/.classpath
+/src/main.iml
+/maven-restassured-jdbc.iml
+/.project
+.gitignore
+.idea/codeStyles/
+.idea/dbnavigator.xml
+.idea/workspace.xml
