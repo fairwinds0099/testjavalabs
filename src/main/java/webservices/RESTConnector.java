@@ -3,7 +3,7 @@ package webservices;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 
-public class RESTConnector<T> extends AbstractConnector<T> {
+class RESTConnector<T> extends AbstractConnector<T> {
 
     @Override
     String buildRequestBody(T request) {

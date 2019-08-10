@@ -10,7 +10,7 @@ import javax.xml.soap.SOAPMessage;
 import java.io.*;
 import java.util.Properties;
 
-public class SOAPConnector<T> extends AbstractConnector<T> {
+class SOAPConnector<T> extends AbstractConnector<T> {
 
     private String namespace;
     private String endPoint;
