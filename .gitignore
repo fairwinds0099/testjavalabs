@@ -10,9 +10,5 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-
-.idea/
-.classpath
-src/main.iml
-maven-restassured-jdbc.iml
-.project
+/.idea/
+/maven-restassured-jdbc.iml
